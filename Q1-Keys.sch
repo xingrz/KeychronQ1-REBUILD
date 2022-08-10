@@ -1,0 +1,2712 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67C7C
+P 1300 1200
+AR Path="/62F67C7C" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67C7C" Ref="SW1"  Part="1" 
+F 0 "SW1" V 1150 1200 50  0000 L CNN
+F 1 "SW_Push" H 1300 1394 50  0001 C CNN
+F 2 "" H 1300 1400 50  0001 C CNN
+F 3 "~" H 1300 1400 50  0001 C CNN
+	1    1300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67C82
+P 1150 1000
+AR Path="/62F67C82" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67C82" Ref="ND1"  Part="1" 
+F 0 "ND1" H 1000 900 50  0000 L CNN
+F 1 "D" V 1105 920 50  0001 R CNN
+F 2 "" H 1150 1000 50  0001 C CNN
+F 3 "~" H 1150 1000 50  0001 C CNN
+	1    1150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67C88
+P 1800 1200
+AR Path="/62F67C88" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67C88" Ref="SW2"  Part="1" 
+F 0 "SW2" V 1650 1200 50  0000 L CNN
+F 1 "SW_Push" H 1800 1394 50  0001 C CNN
+F 2 "" H 1800 1400 50  0001 C CNN
+F 3 "~" H 1800 1400 50  0001 C CNN
+	1    1800 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67C8E
+P 1650 1000
+AR Path="/62F67C8E" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67C8E" Ref="ND2"  Part="1" 
+F 0 "ND2" H 1500 900 50  0000 L CNN
+F 1 "D" V 1605 920 50  0001 R CNN
+F 2 "" H 1650 1000 50  0001 C CNN
+F 3 "~" H 1650 1000 50  0001 C CNN
+	1    1650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67C94
+P 2300 1200
+AR Path="/62F67C94" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67C94" Ref="SW3"  Part="1" 
+F 0 "SW3" V 2150 1200 50  0000 L CNN
+F 1 "SW_Push" H 2300 1394 50  0001 C CNN
+F 2 "" H 2300 1400 50  0001 C CNN
+F 3 "~" H 2300 1400 50  0001 C CNN
+	1    2300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67C9A
+P 2150 1000
+AR Path="/62F67C9A" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67C9A" Ref="ND3"  Part="1" 
+F 0 "ND3" H 2000 900 50  0000 L CNN
+F 1 "D" V 2105 920 50  0001 R CNN
+F 2 "" H 2150 1000 50  0001 C CNN
+F 3 "~" H 2150 1000 50  0001 C CNN
+	1    2150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67CA0
+P 2800 1200
+AR Path="/62F67CA0" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67CA0" Ref="SW4"  Part="1" 
+F 0 "SW4" V 2650 1200 50  0000 L CNN
+F 1 "SW_Push" H 2800 1394 50  0001 C CNN
+F 2 "" H 2800 1400 50  0001 C CNN
+F 3 "~" H 2800 1400 50  0001 C CNN
+	1    2800 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67CA6
+P 2650 1000
+AR Path="/62F67CA6" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67CA6" Ref="ND4"  Part="1" 
+F 0 "ND4" H 2500 900 50  0000 L CNN
+F 1 "D" V 2605 920 50  0001 R CNN
+F 2 "" H 2650 1000 50  0001 C CNN
+F 3 "~" H 2650 1000 50  0001 C CNN
+	1    2650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67CAC
+P 3300 1200
+AR Path="/62F67CAC" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67CAC" Ref="SW5"  Part="1" 
+F 0 "SW5" V 3150 1200 50  0000 L CNN
+F 1 "SW_Push" H 3300 1394 50  0001 C CNN
+F 2 "" H 3300 1400 50  0001 C CNN
+F 3 "~" H 3300 1400 50  0001 C CNN
+	1    3300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67CB2
+P 3150 1000
+AR Path="/62F67CB2" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67CB2" Ref="ND5"  Part="1" 
+F 0 "ND5" H 3000 900 50  0000 L CNN
+F 1 "D" V 3105 920 50  0001 R CNN
+F 2 "" H 3150 1000 50  0001 C CNN
+F 3 "~" H 3150 1000 50  0001 C CNN
+	1    3150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67CB8
+P 3800 1200
+AR Path="/62F67CB8" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67CB8" Ref="SW6"  Part="1" 
+F 0 "SW6" V 3650 1200 50  0000 L CNN
+F 1 "SW_Push" H 3800 1394 50  0001 C CNN
+F 2 "" H 3800 1400 50  0001 C CNN
+F 3 "~" H 3800 1400 50  0001 C CNN
+	1    3800 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67CBE
+P 3650 1000
+AR Path="/62F67CBE" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67CBE" Ref="ND6"  Part="1" 
+F 0 "ND6" H 3500 900 50  0000 L CNN
+F 1 "D" V 3605 920 50  0001 R CNN
+F 2 "" H 3650 1000 50  0001 C CNN
+F 3 "~" H 3650 1000 50  0001 C CNN
+	1    3650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67CC4
+P 4300 1200
+AR Path="/62F67CC4" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67CC4" Ref="SW7"  Part="1" 
+F 0 "SW7" V 4150 1200 50  0000 L CNN
+F 1 "SW_Push" H 4300 1394 50  0001 C CNN
+F 2 "" H 4300 1400 50  0001 C CNN
+F 3 "~" H 4300 1400 50  0001 C CNN
+	1    4300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67CCA
+P 4150 1000
+AR Path="/62F67CCA" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67CCA" Ref="ND7"  Part="1" 
+F 0 "ND7" H 4000 900 50  0000 L CNN
+F 1 "D" V 4105 920 50  0001 R CNN
+F 2 "" H 4150 1000 50  0001 C CNN
+F 3 "~" H 4150 1000 50  0001 C CNN
+	1    4150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67CD0
+P 4800 1200
+AR Path="/62F67CD0" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67CD0" Ref="SW8"  Part="1" 
+F 0 "SW8" V 4650 1200 50  0000 L CNN
+F 1 "SW_Push" H 4800 1394 50  0001 C CNN
+F 2 "" H 4800 1400 50  0001 C CNN
+F 3 "~" H 4800 1400 50  0001 C CNN
+	1    4800 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67CD6
+P 4650 1000
+AR Path="/62F67CD6" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67CD6" Ref="ND8"  Part="1" 
+F 0 "ND8" H 4500 900 50  0000 L CNN
+F 1 "D" V 4605 920 50  0001 R CNN
+F 2 "" H 4650 1000 50  0001 C CNN
+F 3 "~" H 4650 1000 50  0001 C CNN
+	1    4650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67CDC
+P 5300 1200
+AR Path="/62F67CDC" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67CDC" Ref="SW9"  Part="1" 
+F 0 "SW9" V 5150 1200 50  0000 L CNN
+F 1 "SW_Push" H 5300 1394 50  0001 C CNN
+F 2 "" H 5300 1400 50  0001 C CNN
+F 3 "~" H 5300 1400 50  0001 C CNN
+	1    5300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67CE2
+P 5150 1000
+AR Path="/62F67CE2" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67CE2" Ref="ND9"  Part="1" 
+F 0 "ND9" H 5000 900 50  0000 L CNN
+F 1 "D" V 5105 920 50  0001 R CNN
+F 2 "" H 5150 1000 50  0001 C CNN
+F 3 "~" H 5150 1000 50  0001 C CNN
+	1    5150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67CE8
+P 5800 1200
+AR Path="/62F67CE8" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67CE8" Ref="SW10"  Part="1" 
+F 0 "SW10" V 5650 1200 50  0000 L CNN
+F 1 "SW_Push" H 5800 1394 50  0001 C CNN
+F 2 "" H 5800 1400 50  0001 C CNN
+F 3 "~" H 5800 1400 50  0001 C CNN
+	1    5800 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67CEE
+P 5650 1000
+AR Path="/62F67CEE" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67CEE" Ref="ND10"  Part="1" 
+F 0 "ND10" H 5500 900 50  0000 L CNN
+F 1 "D" V 5605 920 50  0001 R CNN
+F 2 "" H 5650 1000 50  0001 C CNN
+F 3 "~" H 5650 1000 50  0001 C CNN
+	1    5650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67CF4
+P 6300 1200
+AR Path="/62F67CF4" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67CF4" Ref="SW11"  Part="1" 
+F 0 "SW11" V 6150 1200 50  0000 L CNN
+F 1 "SW_Push" H 6300 1394 50  0001 C CNN
+F 2 "" H 6300 1400 50  0001 C CNN
+F 3 "~" H 6300 1400 50  0001 C CNN
+	1    6300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67CFA
+P 6150 1000
+AR Path="/62F67CFA" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67CFA" Ref="ND11"  Part="1" 
+F 0 "ND11" H 6000 900 50  0000 L CNN
+F 1 "D" V 6105 920 50  0001 R CNN
+F 2 "" H 6150 1000 50  0001 C CNN
+F 3 "~" H 6150 1000 50  0001 C CNN
+	1    6150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67D00
+P 6800 1200
+AR Path="/62F67D00" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67D00" Ref="SW12"  Part="1" 
+F 0 "SW12" V 6650 1200 50  0000 L CNN
+F 1 "SW_Push" H 6800 1394 50  0001 C CNN
+F 2 "" H 6800 1400 50  0001 C CNN
+F 3 "~" H 6800 1400 50  0001 C CNN
+	1    6800 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67D06
+P 6650 1000
+AR Path="/62F67D06" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67D06" Ref="ND12"  Part="1" 
+F 0 "ND12" H 6500 900 50  0000 L CNN
+F 1 "D" V 6605 920 50  0001 R CNN
+F 2 "" H 6650 1000 50  0001 C CNN
+F 3 "~" H 6650 1000 50  0001 C CNN
+	1    6650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67D0C
+P 7300 1200
+AR Path="/62F67D0C" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67D0C" Ref="SW13"  Part="1" 
+F 0 "SW13" V 7150 1200 50  0000 L CNN
+F 1 "SW_Push" H 7300 1394 50  0001 C CNN
+F 2 "" H 7300 1400 50  0001 C CNN
+F 3 "~" H 7300 1400 50  0001 C CNN
+	1    7300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67D12
+P 7150 1000
+AR Path="/62F67D12" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67D12" Ref="ND13"  Part="1" 
+F 0 "ND13" H 7000 900 50  0000 L CNN
+F 1 "D" V 7105 920 50  0001 R CNN
+F 2 "" H 7150 1000 50  0001 C CNN
+F 3 "~" H 7150 1000 50  0001 C CNN
+	1    7150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F67D18
+P 7800 1200
+AR Path="/62F67D18" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67D18" Ref="SW14"  Part="1" 
+F 0 "SW14" V 7650 1200 50  0000 L CNN
+F 1 "SW_Push" H 7800 1394 50  0001 C CNN
+F 2 "" H 7800 1400 50  0001 C CNN
+F 3 "~" H 7800 1400 50  0001 C CNN
+	1    7800 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67D1E
+P 7650 1000
+AR Path="/62F67D1E" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67D1E" Ref="ND14"  Part="1" 
+F 0 "ND14" H 7500 900 50  0000 L CNN
+F 1 "D" V 7605 920 50  0001 R CNN
+F 2 "" H 7650 1000 50  0001 C CNN
+F 3 "~" H 7650 1000 50  0001 C CNN
+	1    7650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F67D24
+P 8650 1000
+AR Path="/62F67D24" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F67D24" Ref="ND15"  Part="1" 
+F 0 "ND15" H 8500 900 50  0000 L CNN
+F 1 "D" V 8605 920 50  0001 R CNN
+F 2 "" H 8650 1000 50  0001 C CNN
+F 3 "~" H 8650 1000 50  0001 C CNN
+	1    8650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW?
+U 1 1 62F67D2A
+P 9100 1200
+AR Path="/62F67D2A" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F67D2A" Ref="SW15"  Part="1" 
+F 0 "SW15" H 9100 925 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 9100 924 50  0001 C CNN
+F 2 "" H 8950 1360 50  0001 C CNN
+F 3 "~" H 9100 1460 50  0001 C CNN
+	1    9100 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 1100 8800 1000
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86BDF
+P 1300 3200
+AR Path="/62F86BDF" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86BDF" Ref="SW31"  Part="1" 
+F 0 "SW31" V 1150 3200 50  0000 L CNN
+F 1 "SW_Push" H 1300 3394 50  0001 C CNN
+F 2 "" H 1300 3400 50  0001 C CNN
+F 3 "~" H 1300 3400 50  0001 C CNN
+	1    1300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86BE5
+P 1150 3000
+AR Path="/62F86BE5" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86BE5" Ref="ND31"  Part="1" 
+F 0 "ND31" H 1000 2900 50  0000 L CNN
+F 1 "D" V 1105 2920 50  0001 R CNN
+F 2 "" H 1150 3000 50  0001 C CNN
+F 3 "~" H 1150 3000 50  0001 C CNN
+	1    1150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86BEB
+P 1800 3200
+AR Path="/62F86BEB" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86BEB" Ref="SW32"  Part="1" 
+F 0 "SW32" V 1650 3200 50  0000 L CNN
+F 1 "SW_Push" H 1800 3394 50  0001 C CNN
+F 2 "" H 1800 3400 50  0001 C CNN
+F 3 "~" H 1800 3400 50  0001 C CNN
+	1    1800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86BF1
+P 1650 3000
+AR Path="/62F86BF1" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86BF1" Ref="ND32"  Part="1" 
+F 0 "ND32" H 1500 2900 50  0000 L CNN
+F 1 "D" V 1605 2920 50  0001 R CNN
+F 2 "" H 1650 3000 50  0001 C CNN
+F 3 "~" H 1650 3000 50  0001 C CNN
+	1    1650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86BF7
+P 2300 3200
+AR Path="/62F86BF7" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86BF7" Ref="SW33"  Part="1" 
+F 0 "SW33" V 2150 3200 50  0000 L CNN
+F 1 "SW_Push" H 2300 3394 50  0001 C CNN
+F 2 "" H 2300 3400 50  0001 C CNN
+F 3 "~" H 2300 3400 50  0001 C CNN
+	1    2300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86BFD
+P 2150 3000
+AR Path="/62F86BFD" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86BFD" Ref="ND33"  Part="1" 
+F 0 "ND33" H 2000 2900 50  0000 L CNN
+F 1 "D" V 2105 2920 50  0001 R CNN
+F 2 "" H 2150 3000 50  0001 C CNN
+F 3 "~" H 2150 3000 50  0001 C CNN
+	1    2150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C03
+P 2800 3200
+AR Path="/62F86C03" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C03" Ref="SW34"  Part="1" 
+F 0 "SW34" V 2650 3200 50  0000 L CNN
+F 1 "SW_Push" H 2800 3394 50  0001 C CNN
+F 2 "" H 2800 3400 50  0001 C CNN
+F 3 "~" H 2800 3400 50  0001 C CNN
+	1    2800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C09
+P 2650 3000
+AR Path="/62F86C09" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C09" Ref="ND34"  Part="1" 
+F 0 "ND34" H 2500 2900 50  0000 L CNN
+F 1 "D" V 2605 2920 50  0001 R CNN
+F 2 "" H 2650 3000 50  0001 C CNN
+F 3 "~" H 2650 3000 50  0001 C CNN
+	1    2650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C0F
+P 3300 3200
+AR Path="/62F86C0F" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C0F" Ref="SW35"  Part="1" 
+F 0 "SW35" V 3150 3200 50  0000 L CNN
+F 1 "SW_Push" H 3300 3394 50  0001 C CNN
+F 2 "" H 3300 3400 50  0001 C CNN
+F 3 "~" H 3300 3400 50  0001 C CNN
+	1    3300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C15
+P 3150 3000
+AR Path="/62F86C15" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C15" Ref="ND35"  Part="1" 
+F 0 "ND35" H 3000 2900 50  0000 L CNN
+F 1 "D" V 3105 2920 50  0001 R CNN
+F 2 "" H 3150 3000 50  0001 C CNN
+F 3 "~" H 3150 3000 50  0001 C CNN
+	1    3150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C1B
+P 3800 3200
+AR Path="/62F86C1B" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C1B" Ref="SW36"  Part="1" 
+F 0 "SW36" V 3650 3200 50  0000 L CNN
+F 1 "SW_Push" H 3800 3394 50  0001 C CNN
+F 2 "" H 3800 3400 50  0001 C CNN
+F 3 "~" H 3800 3400 50  0001 C CNN
+	1    3800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C21
+P 3650 3000
+AR Path="/62F86C21" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C21" Ref="ND36"  Part="1" 
+F 0 "ND36" H 3500 2900 50  0000 L CNN
+F 1 "D" V 3605 2920 50  0001 R CNN
+F 2 "" H 3650 3000 50  0001 C CNN
+F 3 "~" H 3650 3000 50  0001 C CNN
+	1    3650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C27
+P 4300 3200
+AR Path="/62F86C27" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C27" Ref="SW37"  Part="1" 
+F 0 "SW37" V 4150 3200 50  0000 L CNN
+F 1 "SW_Push" H 4300 3394 50  0001 C CNN
+F 2 "" H 4300 3400 50  0001 C CNN
+F 3 "~" H 4300 3400 50  0001 C CNN
+	1    4300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C2D
+P 4150 3000
+AR Path="/62F86C2D" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C2D" Ref="ND37"  Part="1" 
+F 0 "ND37" H 4000 2900 50  0000 L CNN
+F 1 "D" V 4105 2920 50  0001 R CNN
+F 2 "" H 4150 3000 50  0001 C CNN
+F 3 "~" H 4150 3000 50  0001 C CNN
+	1    4150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C33
+P 4800 3200
+AR Path="/62F86C33" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C33" Ref="SW38"  Part="1" 
+F 0 "SW38" V 4650 3200 50  0000 L CNN
+F 1 "SW_Push" H 4800 3394 50  0001 C CNN
+F 2 "" H 4800 3400 50  0001 C CNN
+F 3 "~" H 4800 3400 50  0001 C CNN
+	1    4800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C39
+P 4650 3000
+AR Path="/62F86C39" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C39" Ref="ND38"  Part="1" 
+F 0 "ND38" H 4500 2900 50  0000 L CNN
+F 1 "D" V 4605 2920 50  0001 R CNN
+F 2 "" H 4650 3000 50  0001 C CNN
+F 3 "~" H 4650 3000 50  0001 C CNN
+	1    4650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C3F
+P 5300 3200
+AR Path="/62F86C3F" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C3F" Ref="SW39"  Part="1" 
+F 0 "SW39" V 5150 3200 50  0000 L CNN
+F 1 "SW_Push" H 5300 3394 50  0001 C CNN
+F 2 "" H 5300 3400 50  0001 C CNN
+F 3 "~" H 5300 3400 50  0001 C CNN
+	1    5300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C45
+P 5150 3000
+AR Path="/62F86C45" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C45" Ref="ND39"  Part="1" 
+F 0 "ND39" H 5000 2900 50  0000 L CNN
+F 1 "D" V 5105 2920 50  0001 R CNN
+F 2 "" H 5150 3000 50  0001 C CNN
+F 3 "~" H 5150 3000 50  0001 C CNN
+	1    5150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C4B
+P 5800 3200
+AR Path="/62F86C4B" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C4B" Ref="SW40"  Part="1" 
+F 0 "SW40" V 5650 3200 50  0000 L CNN
+F 1 "SW_Push" H 5800 3394 50  0001 C CNN
+F 2 "" H 5800 3400 50  0001 C CNN
+F 3 "~" H 5800 3400 50  0001 C CNN
+	1    5800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C51
+P 5650 3000
+AR Path="/62F86C51" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C51" Ref="ND40"  Part="1" 
+F 0 "ND40" H 5500 2900 50  0000 L CNN
+F 1 "D" V 5605 2920 50  0001 R CNN
+F 2 "" H 5650 3000 50  0001 C CNN
+F 3 "~" H 5650 3000 50  0001 C CNN
+	1    5650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C57
+P 6300 3200
+AR Path="/62F86C57" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C57" Ref="SW41"  Part="1" 
+F 0 "SW41" V 6150 3200 50  0000 L CNN
+F 1 "SW_Push" H 6300 3394 50  0001 C CNN
+F 2 "" H 6300 3400 50  0001 C CNN
+F 3 "~" H 6300 3400 50  0001 C CNN
+	1    6300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C5D
+P 6150 3000
+AR Path="/62F86C5D" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C5D" Ref="ND41"  Part="1" 
+F 0 "ND41" H 6000 2900 50  0000 L CNN
+F 1 "D" V 6105 2920 50  0001 R CNN
+F 2 "" H 6150 3000 50  0001 C CNN
+F 3 "~" H 6150 3000 50  0001 C CNN
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C63
+P 6800 3200
+AR Path="/62F86C63" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C63" Ref="SW42"  Part="1" 
+F 0 "SW42" V 6650 3200 50  0000 L CNN
+F 1 "SW_Push" H 6800 3394 50  0001 C CNN
+F 2 "" H 6800 3400 50  0001 C CNN
+F 3 "~" H 6800 3400 50  0001 C CNN
+	1    6800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C69
+P 6650 3000
+AR Path="/62F86C69" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C69" Ref="ND42"  Part="1" 
+F 0 "ND42" H 6500 2900 50  0000 L CNN
+F 1 "D" V 6605 2920 50  0001 R CNN
+F 2 "" H 6650 3000 50  0001 C CNN
+F 3 "~" H 6650 3000 50  0001 C CNN
+	1    6650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C6F
+P 7300 3200
+AR Path="/62F86C6F" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C6F" Ref="SW43"  Part="1" 
+F 0 "SW43" V 7150 3200 50  0000 L CNN
+F 1 "SW_Push" H 7300 3394 50  0001 C CNN
+F 2 "" H 7300 3400 50  0001 C CNN
+F 3 "~" H 7300 3400 50  0001 C CNN
+	1    7300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C75
+P 7150 3000
+AR Path="/62F86C75" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C75" Ref="ND43"  Part="1" 
+F 0 "ND43" H 7000 2900 50  0000 L CNN
+F 1 "D" V 7105 2920 50  0001 R CNN
+F 2 "" H 7150 3000 50  0001 C CNN
+F 3 "~" H 7150 3000 50  0001 C CNN
+	1    7150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86C7B
+P 7800 3200
+AR Path="/62F86C7B" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F86C7B" Ref="SW44"  Part="1" 
+F 0 "SW44" V 7650 3200 50  0000 L CNN
+F 1 "SW_Push" H 7800 3394 50  0001 C CNN
+F 2 "" H 7800 3400 50  0001 C CNN
+F 3 "~" H 7800 3400 50  0001 C CNN
+	1    7800 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F86C81
+P 7650 3000
+AR Path="/62F86C81" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F86C81" Ref="ND44"  Part="1" 
+F 0 "ND44" H 7500 2900 50  0000 L CNN
+F 1 "D" V 7605 2920 50  0001 R CNN
+F 2 "" H 7650 3000 50  0001 C CNN
+F 3 "~" H 7650 3000 50  0001 C CNN
+	1    7650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E21
+P 1300 4200
+AR Path="/62F90E21" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E21" Ref="SW46"  Part="1" 
+F 0 "SW46" V 1150 4200 50  0000 L CNN
+F 1 "SW_Push" H 1300 4394 50  0001 C CNN
+F 2 "" H 1300 4400 50  0001 C CNN
+F 3 "~" H 1300 4400 50  0001 C CNN
+	1    1300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E27
+P 1150 4000
+AR Path="/62F90E27" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E27" Ref="ND46"  Part="1" 
+F 0 "ND46" H 1000 3900 50  0000 L CNN
+F 1 "D" V 1105 3920 50  0001 R CNN
+F 2 "" H 1150 4000 50  0001 C CNN
+F 3 "~" H 1150 4000 50  0001 C CNN
+	1    1150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E2D
+P 1800 4200
+AR Path="/62F90E2D" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E2D" Ref="SW47"  Part="1" 
+F 0 "SW47" V 1650 4200 50  0000 L CNN
+F 1 "SW_Push" H 1800 4394 50  0001 C CNN
+F 2 "" H 1800 4400 50  0001 C CNN
+F 3 "~" H 1800 4400 50  0001 C CNN
+	1    1800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E33
+P 1650 4000
+AR Path="/62F90E33" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E33" Ref="ND47"  Part="1" 
+F 0 "ND47" H 1500 3900 50  0000 L CNN
+F 1 "D" V 1605 3920 50  0001 R CNN
+F 2 "" H 1650 4000 50  0001 C CNN
+F 3 "~" H 1650 4000 50  0001 C CNN
+	1    1650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E39
+P 2300 4200
+AR Path="/62F90E39" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E39" Ref="SW48"  Part="1" 
+F 0 "SW48" V 2150 4200 50  0000 L CNN
+F 1 "SW_Push" H 2300 4394 50  0001 C CNN
+F 2 "" H 2300 4400 50  0001 C CNN
+F 3 "~" H 2300 4400 50  0001 C CNN
+	1    2300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E3F
+P 2150 4000
+AR Path="/62F90E3F" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E3F" Ref="ND48"  Part="1" 
+F 0 "ND48" H 2000 3900 50  0000 L CNN
+F 1 "D" V 2105 3920 50  0001 R CNN
+F 2 "" H 2150 4000 50  0001 C CNN
+F 3 "~" H 2150 4000 50  0001 C CNN
+	1    2150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E45
+P 2800 4200
+AR Path="/62F90E45" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E45" Ref="SW49"  Part="1" 
+F 0 "SW49" V 2650 4200 50  0000 L CNN
+F 1 "SW_Push" H 2800 4394 50  0001 C CNN
+F 2 "" H 2800 4400 50  0001 C CNN
+F 3 "~" H 2800 4400 50  0001 C CNN
+	1    2800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E4B
+P 2650 4000
+AR Path="/62F90E4B" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E4B" Ref="ND49"  Part="1" 
+F 0 "ND49" H 2500 3900 50  0000 L CNN
+F 1 "D" V 2605 3920 50  0001 R CNN
+F 2 "" H 2650 4000 50  0001 C CNN
+F 3 "~" H 2650 4000 50  0001 C CNN
+	1    2650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E51
+P 3300 4200
+AR Path="/62F90E51" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E51" Ref="SW50"  Part="1" 
+F 0 "SW50" V 3150 4200 50  0000 L CNN
+F 1 "SW_Push" H 3300 4394 50  0001 C CNN
+F 2 "" H 3300 4400 50  0001 C CNN
+F 3 "~" H 3300 4400 50  0001 C CNN
+	1    3300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E57
+P 3150 4000
+AR Path="/62F90E57" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E57" Ref="ND50"  Part="1" 
+F 0 "ND50" H 3000 3900 50  0000 L CNN
+F 1 "D" V 3105 3920 50  0001 R CNN
+F 2 "" H 3150 4000 50  0001 C CNN
+F 3 "~" H 3150 4000 50  0001 C CNN
+	1    3150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E5D
+P 3800 4200
+AR Path="/62F90E5D" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E5D" Ref="SW51"  Part="1" 
+F 0 "SW51" V 3650 4200 50  0000 L CNN
+F 1 "SW_Push" H 3800 4394 50  0001 C CNN
+F 2 "" H 3800 4400 50  0001 C CNN
+F 3 "~" H 3800 4400 50  0001 C CNN
+	1    3800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E63
+P 3650 4000
+AR Path="/62F90E63" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E63" Ref="ND51"  Part="1" 
+F 0 "ND51" H 3500 3900 50  0000 L CNN
+F 1 "D" V 3605 3920 50  0001 R CNN
+F 2 "" H 3650 4000 50  0001 C CNN
+F 3 "~" H 3650 4000 50  0001 C CNN
+	1    3650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E69
+P 4300 4200
+AR Path="/62F90E69" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E69" Ref="SW52"  Part="1" 
+F 0 "SW52" V 4150 4200 50  0000 L CNN
+F 1 "SW_Push" H 4300 4394 50  0001 C CNN
+F 2 "" H 4300 4400 50  0001 C CNN
+F 3 "~" H 4300 4400 50  0001 C CNN
+	1    4300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E6F
+P 4150 4000
+AR Path="/62F90E6F" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E6F" Ref="ND52"  Part="1" 
+F 0 "ND52" H 4000 3900 50  0000 L CNN
+F 1 "D" V 4105 3920 50  0001 R CNN
+F 2 "" H 4150 4000 50  0001 C CNN
+F 3 "~" H 4150 4000 50  0001 C CNN
+	1    4150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E75
+P 4800 4200
+AR Path="/62F90E75" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E75" Ref="SW53"  Part="1" 
+F 0 "SW53" V 4650 4200 50  0000 L CNN
+F 1 "SW_Push" H 4800 4394 50  0001 C CNN
+F 2 "" H 4800 4400 50  0001 C CNN
+F 3 "~" H 4800 4400 50  0001 C CNN
+	1    4800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E7B
+P 4650 4000
+AR Path="/62F90E7B" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E7B" Ref="ND53"  Part="1" 
+F 0 "ND53" H 4500 3900 50  0000 L CNN
+F 1 "D" V 4605 3920 50  0001 R CNN
+F 2 "" H 4650 4000 50  0001 C CNN
+F 3 "~" H 4650 4000 50  0001 C CNN
+	1    4650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E81
+P 5300 4200
+AR Path="/62F90E81" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E81" Ref="SW54"  Part="1" 
+F 0 "SW54" V 5150 4200 50  0000 L CNN
+F 1 "SW_Push" H 5300 4394 50  0001 C CNN
+F 2 "" H 5300 4400 50  0001 C CNN
+F 3 "~" H 5300 4400 50  0001 C CNN
+	1    5300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E87
+P 5150 4000
+AR Path="/62F90E87" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E87" Ref="ND54"  Part="1" 
+F 0 "ND54" H 5000 3900 50  0000 L CNN
+F 1 "D" V 5105 3920 50  0001 R CNN
+F 2 "" H 5150 4000 50  0001 C CNN
+F 3 "~" H 5150 4000 50  0001 C CNN
+	1    5150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E8D
+P 5800 4200
+AR Path="/62F90E8D" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E8D" Ref="SW55"  Part="1" 
+F 0 "SW55" V 5650 4200 50  0000 L CNN
+F 1 "SW_Push" H 5800 4394 50  0001 C CNN
+F 2 "" H 5800 4400 50  0001 C CNN
+F 3 "~" H 5800 4400 50  0001 C CNN
+	1    5800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E93
+P 5650 4000
+AR Path="/62F90E93" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E93" Ref="ND55"  Part="1" 
+F 0 "ND55" H 5500 3900 50  0000 L CNN
+F 1 "D" V 5605 3920 50  0001 R CNN
+F 2 "" H 5650 4000 50  0001 C CNN
+F 3 "~" H 5650 4000 50  0001 C CNN
+	1    5650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90E99
+P 6300 4200
+AR Path="/62F90E99" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90E99" Ref="SW56"  Part="1" 
+F 0 "SW56" V 6150 4200 50  0000 L CNN
+F 1 "SW_Push" H 6300 4394 50  0001 C CNN
+F 2 "" H 6300 4400 50  0001 C CNN
+F 3 "~" H 6300 4400 50  0001 C CNN
+	1    6300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90E9F
+P 6150 4000
+AR Path="/62F90E9F" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90E9F" Ref="ND56"  Part="1" 
+F 0 "ND56" H 6000 3900 50  0000 L CNN
+F 1 "D" V 6105 3920 50  0001 R CNN
+F 2 "" H 6150 4000 50  0001 C CNN
+F 3 "~" H 6150 4000 50  0001 C CNN
+	1    6150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90EA5
+P 6800 4200
+AR Path="/62F90EA5" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90EA5" Ref="SW57"  Part="1" 
+F 0 "SW57" V 6650 4200 50  0000 L CNN
+F 1 "SW_Push" H 6800 4394 50  0001 C CNN
+F 2 "" H 6800 4400 50  0001 C CNN
+F 3 "~" H 6800 4400 50  0001 C CNN
+	1    6800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90EAB
+P 6650 4000
+AR Path="/62F90EAB" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90EAB" Ref="ND57"  Part="1" 
+F 0 "ND57" H 6500 3900 50  0000 L CNN
+F 1 "D" V 6605 3920 50  0001 R CNN
+F 2 "" H 6650 4000 50  0001 C CNN
+F 3 "~" H 6650 4000 50  0001 C CNN
+	1    6650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90EB1
+P 7800 4200
+AR Path="/62F90EB1" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90EB1" Ref="SW58"  Part="1" 
+F 0 "SW58" V 7650 4200 50  0000 L CNN
+F 1 "SW_Push" H 7800 4394 50  0001 C CNN
+F 2 "" H 7800 4400 50  0001 C CNN
+F 3 "~" H 7800 4400 50  0001 C CNN
+	1    7800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90EB7
+P 7650 4000
+AR Path="/62F90EB7" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90EB7" Ref="ND58"  Part="1" 
+F 0 "ND58" H 7500 3900 50  0000 L CNN
+F 1 "D" V 7605 3920 50  0001 R CNN
+F 2 "" H 7650 4000 50  0001 C CNN
+F 3 "~" H 7650 4000 50  0001 C CNN
+	1    7650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F90EBD
+P 8800 4200
+AR Path="/62F90EBD" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F90EBD" Ref="SW59"  Part="1" 
+F 0 "SW59" V 8650 4200 50  0000 L CNN
+F 1 "SW_Push" H 8800 4394 50  0001 C CNN
+F 2 "" H 8800 4400 50  0001 C CNN
+F 3 "~" H 8800 4400 50  0001 C CNN
+	1    8800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F90EC3
+P 8650 4000
+AR Path="/62F90EC3" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F90EC3" Ref="ND59"  Part="1" 
+F 0 "ND59" H 8500 3900 50  0000 L CNN
+F 1 "D" V 8605 3920 50  0001 R CNN
+F 2 "" H 8650 4000 50  0001 C CNN
+F 3 "~" H 8650 4000 50  0001 C CNN
+	1    8650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9ADF3
+P 1300 5200
+AR Path="/62F9ADF3" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9ADF3" Ref="SW60"  Part="1" 
+F 0 "SW60" V 1150 5200 50  0000 L CNN
+F 1 "SW_Push" H 1300 5394 50  0001 C CNN
+F 2 "" H 1300 5400 50  0001 C CNN
+F 3 "~" H 1300 5400 50  0001 C CNN
+	1    1300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9ADF9
+P 1150 5000
+AR Path="/62F9ADF9" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9ADF9" Ref="ND60"  Part="1" 
+F 0 "ND60" H 1000 4900 50  0000 L CNN
+F 1 "D" V 1105 4920 50  0001 R CNN
+F 2 "" H 1150 5000 50  0001 C CNN
+F 3 "~" H 1150 5000 50  0001 C CNN
+	1    1150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9ADFF
+P 2300 5200
+AR Path="/62F9ADFF" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9ADFF" Ref="SW61"  Part="1" 
+F 0 "SW61" V 2150 5200 50  0000 L CNN
+F 1 "SW_Push" H 2300 5394 50  0001 C CNN
+F 2 "" H 2300 5400 50  0001 C CNN
+F 3 "~" H 2300 5400 50  0001 C CNN
+	1    2300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE05
+P 2150 5000
+AR Path="/62F9AE05" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE05" Ref="ND61"  Part="1" 
+F 0 "ND61" H 2000 4900 50  0000 L CNN
+F 1 "D" V 2105 4920 50  0001 R CNN
+F 2 "" H 2150 5000 50  0001 C CNN
+F 3 "~" H 2150 5000 50  0001 C CNN
+	1    2150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE0B
+P 2800 5200
+AR Path="/62F9AE0B" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE0B" Ref="SW62"  Part="1" 
+F 0 "SW62" V 2650 5200 50  0000 L CNN
+F 1 "SW_Push" H 2800 5394 50  0001 C CNN
+F 2 "" H 2800 5400 50  0001 C CNN
+F 3 "~" H 2800 5400 50  0001 C CNN
+	1    2800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE11
+P 2650 5000
+AR Path="/62F9AE11" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE11" Ref="ND62"  Part="1" 
+F 0 "ND62" H 2500 4900 50  0000 L CNN
+F 1 "D" V 2605 4920 50  0001 R CNN
+F 2 "" H 2650 5000 50  0001 C CNN
+F 3 "~" H 2650 5000 50  0001 C CNN
+	1    2650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE17
+P 3300 5200
+AR Path="/62F9AE17" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE17" Ref="SW63"  Part="1" 
+F 0 "SW63" V 3150 5200 50  0000 L CNN
+F 1 "SW_Push" H 3300 5394 50  0001 C CNN
+F 2 "" H 3300 5400 50  0001 C CNN
+F 3 "~" H 3300 5400 50  0001 C CNN
+	1    3300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE1D
+P 3150 5000
+AR Path="/62F9AE1D" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE1D" Ref="ND63"  Part="1" 
+F 0 "ND63" H 3000 4900 50  0000 L CNN
+F 1 "D" V 3105 4920 50  0001 R CNN
+F 2 "" H 3150 5000 50  0001 C CNN
+F 3 "~" H 3150 5000 50  0001 C CNN
+	1    3150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE23
+P 3800 5200
+AR Path="/62F9AE23" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE23" Ref="SW64"  Part="1" 
+F 0 "SW64" V 3650 5200 50  0000 L CNN
+F 1 "SW_Push" H 3800 5394 50  0001 C CNN
+F 2 "" H 3800 5400 50  0001 C CNN
+F 3 "~" H 3800 5400 50  0001 C CNN
+	1    3800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE29
+P 3650 5000
+AR Path="/62F9AE29" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE29" Ref="ND64"  Part="1" 
+F 0 "ND64" H 3500 4900 50  0000 L CNN
+F 1 "D" V 3605 4920 50  0001 R CNN
+F 2 "" H 3650 5000 50  0001 C CNN
+F 3 "~" H 3650 5000 50  0001 C CNN
+	1    3650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE2F
+P 4300 5200
+AR Path="/62F9AE2F" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE2F" Ref="SW65"  Part="1" 
+F 0 "SW65" V 4150 5200 50  0000 L CNN
+F 1 "SW_Push" H 4300 5394 50  0001 C CNN
+F 2 "" H 4300 5400 50  0001 C CNN
+F 3 "~" H 4300 5400 50  0001 C CNN
+	1    4300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE35
+P 4150 5000
+AR Path="/62F9AE35" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE35" Ref="ND65"  Part="1" 
+F 0 "ND65" H 4000 4900 50  0000 L CNN
+F 1 "D" V 4105 4920 50  0001 R CNN
+F 2 "" H 4150 5000 50  0001 C CNN
+F 3 "~" H 4150 5000 50  0001 C CNN
+	1    4150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE3B
+P 4800 5200
+AR Path="/62F9AE3B" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE3B" Ref="SW66"  Part="1" 
+F 0 "SW66" V 4650 5200 50  0000 L CNN
+F 1 "SW_Push" H 4800 5394 50  0001 C CNN
+F 2 "" H 4800 5400 50  0001 C CNN
+F 3 "~" H 4800 5400 50  0001 C CNN
+	1    4800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE41
+P 4650 5000
+AR Path="/62F9AE41" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE41" Ref="ND66"  Part="1" 
+F 0 "ND66" H 4500 4900 50  0000 L CNN
+F 1 "D" V 4605 4920 50  0001 R CNN
+F 2 "" H 4650 5000 50  0001 C CNN
+F 3 "~" H 4650 5000 50  0001 C CNN
+	1    4650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE47
+P 5300 5200
+AR Path="/62F9AE47" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE47" Ref="SW67"  Part="1" 
+F 0 "SW67" V 5150 5200 50  0000 L CNN
+F 1 "SW_Push" H 5300 5394 50  0001 C CNN
+F 2 "" H 5300 5400 50  0001 C CNN
+F 3 "~" H 5300 5400 50  0001 C CNN
+	1    5300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE4D
+P 5150 5000
+AR Path="/62F9AE4D" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE4D" Ref="ND67"  Part="1" 
+F 0 "ND67" H 5000 4900 50  0000 L CNN
+F 1 "D" V 5105 4920 50  0001 R CNN
+F 2 "" H 5150 5000 50  0001 C CNN
+F 3 "~" H 5150 5000 50  0001 C CNN
+	1    5150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE53
+P 5800 5200
+AR Path="/62F9AE53" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE53" Ref="SW68"  Part="1" 
+F 0 "SW68" V 5650 5200 50  0000 L CNN
+F 1 "SW_Push" H 5800 5394 50  0001 C CNN
+F 2 "" H 5800 5400 50  0001 C CNN
+F 3 "~" H 5800 5400 50  0001 C CNN
+	1    5800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE59
+P 5650 5000
+AR Path="/62F9AE59" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE59" Ref="ND68"  Part="1" 
+F 0 "ND68" H 5500 4900 50  0000 L CNN
+F 1 "D" V 5605 4920 50  0001 R CNN
+F 2 "" H 5650 5000 50  0001 C CNN
+F 3 "~" H 5650 5000 50  0001 C CNN
+	1    5650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE5F
+P 6300 5200
+AR Path="/62F9AE5F" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE5F" Ref="SW69"  Part="1" 
+F 0 "SW69" V 6150 5200 50  0000 L CNN
+F 1 "SW_Push" H 6300 5394 50  0001 C CNN
+F 2 "" H 6300 5400 50  0001 C CNN
+F 3 "~" H 6300 5400 50  0001 C CNN
+	1    6300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE65
+P 6150 5000
+AR Path="/62F9AE65" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE65" Ref="ND69"  Part="1" 
+F 0 "ND69" H 6000 4900 50  0000 L CNN
+F 1 "D" V 6105 4920 50  0001 R CNN
+F 2 "" H 6150 5000 50  0001 C CNN
+F 3 "~" H 6150 5000 50  0001 C CNN
+	1    6150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE6B
+P 6800 5200
+AR Path="/62F9AE6B" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE6B" Ref="SW70"  Part="1" 
+F 0 "SW70" V 6650 5200 50  0000 L CNN
+F 1 "SW_Push" H 6800 5394 50  0001 C CNN
+F 2 "" H 6800 5400 50  0001 C CNN
+F 3 "~" H 6800 5400 50  0001 C CNN
+	1    6800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE71
+P 6650 5000
+AR Path="/62F9AE71" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE71" Ref="ND70"  Part="1" 
+F 0 "ND70" H 6500 4900 50  0000 L CNN
+F 1 "D" V 6605 4920 50  0001 R CNN
+F 2 "" H 6650 5000 50  0001 C CNN
+F 3 "~" H 6650 5000 50  0001 C CNN
+	1    6650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE77
+P 7800 5200
+AR Path="/62F9AE77" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE77" Ref="SW71"  Part="1" 
+F 0 "SW71" V 7650 5200 50  0000 L CNN
+F 1 "SW_Push" H 7800 5394 50  0001 C CNN
+F 2 "" H 7800 5400 50  0001 C CNN
+F 3 "~" H 7800 5400 50  0001 C CNN
+	1    7800 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE7D
+P 7650 5000
+AR Path="/62F9AE7D" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE7D" Ref="ND71"  Part="1" 
+F 0 "ND71" H 7500 4900 50  0000 L CNN
+F 1 "D" V 7605 4920 50  0001 R CNN
+F 2 "" H 7650 5000 50  0001 C CNN
+F 3 "~" H 7650 5000 50  0001 C CNN
+	1    7650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F9AE83
+P 8300 5200
+AR Path="/62F9AE83" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F9AE83" Ref="SW72"  Part="1" 
+F 0 "SW72" V 8150 5200 50  0000 L CNN
+F 1 "SW_Push" H 8300 5394 50  0001 C CNN
+F 2 "" H 8300 5400 50  0001 C CNN
+F 3 "~" H 8300 5400 50  0001 C CNN
+	1    8300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F9AE89
+P 8150 5000
+AR Path="/62F9AE89" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F9AE89" Ref="ND72"  Part="1" 
+F 0 "ND72" H 8000 4900 50  0000 L CNN
+F 1 "D" V 8105 4920 50  0001 R CNN
+F 2 "" H 8150 5000 50  0001 C CNN
+F 3 "~" H 8150 5000 50  0001 C CNN
+	1    8150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4F53
+P 1300 6200
+AR Path="/62FA4F53" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4F53" Ref="SW73"  Part="1" 
+F 0 "SW73" V 1150 6200 50  0000 L CNN
+F 1 "SW_Push" H 1300 6394 50  0001 C CNN
+F 2 "" H 1300 6400 50  0001 C CNN
+F 3 "~" H 1300 6400 50  0001 C CNN
+	1    1300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4F59
+P 1150 6000
+AR Path="/62FA4F59" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4F59" Ref="ND73"  Part="1" 
+F 0 "ND73" H 1000 5900 50  0000 L CNN
+F 1 "D" V 1105 5920 50  0001 R CNN
+F 2 "" H 1150 6000 50  0001 C CNN
+F 3 "~" H 1150 6000 50  0001 C CNN
+	1    1150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4F5F
+P 1800 6200
+AR Path="/62FA4F5F" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4F5F" Ref="SW74"  Part="1" 
+F 0 "SW74" V 1650 6200 50  0000 L CNN
+F 1 "SW_Push" H 1800 6394 50  0001 C CNN
+F 2 "" H 1800 6400 50  0001 C CNN
+F 3 "~" H 1800 6400 50  0001 C CNN
+	1    1800 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4F65
+P 1650 6000
+AR Path="/62FA4F65" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4F65" Ref="ND74"  Part="1" 
+F 0 "ND74" H 1500 5900 50  0000 L CNN
+F 1 "D" V 1605 5920 50  0001 R CNN
+F 2 "" H 1650 6000 50  0001 C CNN
+F 3 "~" H 1650 6000 50  0001 C CNN
+	1    1650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4F6B
+P 2300 6200
+AR Path="/62FA4F6B" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4F6B" Ref="SW75"  Part="1" 
+F 0 "SW75" V 2150 6200 50  0000 L CNN
+F 1 "SW_Push" H 2300 6394 50  0001 C CNN
+F 2 "" H 2300 6400 50  0001 C CNN
+F 3 "~" H 2300 6400 50  0001 C CNN
+	1    2300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4F71
+P 2150 6000
+AR Path="/62FA4F71" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4F71" Ref="ND75"  Part="1" 
+F 0 "ND75" H 2000 5900 50  0000 L CNN
+F 1 "D" V 2105 5920 50  0001 R CNN
+F 2 "" H 2150 6000 50  0001 C CNN
+F 3 "~" H 2150 6000 50  0001 C CNN
+	1    2150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4F77
+P 4300 6200
+AR Path="/62FA4F77" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4F77" Ref="SW76"  Part="1" 
+F 0 "SW76" V 4150 6200 50  0000 L CNN
+F 1 "SW_Push" H 4300 6394 50  0001 C CNN
+F 2 "" H 4300 6400 50  0001 C CNN
+F 3 "~" H 4300 6400 50  0001 C CNN
+	1    4300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4F7D
+P 4150 6000
+AR Path="/62FA4F7D" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4F7D" Ref="ND76"  Part="1" 
+F 0 "ND76" H 4000 5900 50  0000 L CNN
+F 1 "D" V 4105 5920 50  0001 R CNN
+F 2 "" H 4150 6000 50  0001 C CNN
+F 3 "~" H 4150 6000 50  0001 C CNN
+	1    4150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4F83
+P 6300 6200
+AR Path="/62FA4F83" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4F83" Ref="SW77"  Part="1" 
+F 0 "SW77" V 6150 6200 50  0000 L CNN
+F 1 "SW_Push" H 6300 6394 50  0001 C CNN
+F 2 "" H 6300 6400 50  0001 C CNN
+F 3 "~" H 6300 6400 50  0001 C CNN
+	1    6300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4F89
+P 6150 6000
+AR Path="/62FA4F89" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4F89" Ref="ND77"  Part="1" 
+F 0 "ND77" H 6000 5900 50  0000 L CNN
+F 1 "D" V 6105 5920 50  0001 R CNN
+F 2 "" H 6150 6000 50  0001 C CNN
+F 3 "~" H 6150 6000 50  0001 C CNN
+	1    6150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4F8F
+P 6800 6200
+AR Path="/62FA4F8F" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4F8F" Ref="SW78"  Part="1" 
+F 0 "SW78" V 6650 6200 50  0000 L CNN
+F 1 "SW_Push" H 6800 6394 50  0001 C CNN
+F 2 "" H 6800 6400 50  0001 C CNN
+F 3 "~" H 6800 6400 50  0001 C CNN
+	1    6800 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4F95
+P 6650 6000
+AR Path="/62FA4F95" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4F95" Ref="ND78"  Part="1" 
+F 0 "ND78" H 6500 5900 50  0000 L CNN
+F 1 "D" V 6605 5920 50  0001 R CNN
+F 2 "" H 6650 6000 50  0001 C CNN
+F 3 "~" H 6650 6000 50  0001 C CNN
+	1    6650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4F9B
+P 7300 6200
+AR Path="/62FA4F9B" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4F9B" Ref="SW79"  Part="1" 
+F 0 "SW79" V 7150 6200 50  0000 L CNN
+F 1 "SW_Push" H 7300 6394 50  0001 C CNN
+F 2 "" H 7300 6400 50  0001 C CNN
+F 3 "~" H 7300 6400 50  0001 C CNN
+	1    7300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4FA1
+P 7150 6000
+AR Path="/62FA4FA1" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4FA1" Ref="ND79"  Part="1" 
+F 0 "ND79" H 7000 5900 50  0000 L CNN
+F 1 "D" V 7105 5920 50  0001 R CNN
+F 2 "" H 7150 6000 50  0001 C CNN
+F 3 "~" H 7150 6000 50  0001 C CNN
+	1    7150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4FA7
+P 7800 6200
+AR Path="/62FA4FA7" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4FA7" Ref="SW80"  Part="1" 
+F 0 "SW80" V 7650 6200 50  0000 L CNN
+F 1 "SW_Push" H 7800 6394 50  0001 C CNN
+F 2 "" H 7800 6400 50  0001 C CNN
+F 3 "~" H 7800 6400 50  0001 C CNN
+	1    7800 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4FAD
+P 7650 6000
+AR Path="/62FA4FAD" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4FAD" Ref="ND80"  Part="1" 
+F 0 "ND80" H 7500 5900 50  0000 L CNN
+F 1 "D" V 7605 5920 50  0001 R CNN
+F 2 "" H 7650 6000 50  0001 C CNN
+F 3 "~" H 7650 6000 50  0001 C CNN
+	1    7650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4FB3
+P 8300 6200
+AR Path="/62FA4FB3" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4FB3" Ref="SW81"  Part="1" 
+F 0 "SW81" V 8150 6200 50  0000 L CNN
+F 1 "SW_Push" H 8300 6394 50  0001 C CNN
+F 2 "" H 8300 6400 50  0001 C CNN
+F 3 "~" H 8300 6400 50  0001 C CNN
+	1    8300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4FB9
+P 8150 6000
+AR Path="/62FA4FB9" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4FB9" Ref="ND81"  Part="1" 
+F 0 "ND81" H 8000 5900 50  0000 L CNN
+F 1 "D" V 8105 5920 50  0001 R CNN
+F 2 "" H 8150 6000 50  0001 C CNN
+F 3 "~" H 8150 6000 50  0001 C CNN
+	1    8150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FA4FBF
+P 8800 6200
+AR Path="/62FA4FBF" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FA4FBF" Ref="SW82"  Part="1" 
+F 0 "SW82" V 8650 6200 50  0000 L CNN
+F 1 "SW_Push" H 8800 6394 50  0001 C CNN
+F 2 "" H 8800 6400 50  0001 C CNN
+F 3 "~" H 8800 6400 50  0001 C CNN
+	1    8800 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FA4FC5
+P 8650 6000
+AR Path="/62FA4FC5" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FA4FC5" Ref="ND82"  Part="1" 
+F 0 "ND82" H 8500 5900 50  0000 L CNN
+F 1 "D" V 8605 5920 50  0001 R CNN
+F 2 "" H 8650 6000 50  0001 C CNN
+F 3 "~" H 8650 6000 50  0001 C CNN
+	1    8650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DDA7
+P 7650 2000
+AR Path="/62F7DDA7" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DDA7" Ref="ND29"  Part="1" 
+F 0 "ND29" H 7500 1900 50  0000 L CNN
+F 1 "D" V 7605 1920 50  0001 R CNN
+F 2 "" H 7650 2000 50  0001 C CNN
+F 3 "~" H 7650 2000 50  0001 C CNN
+	1    7650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DDA1
+P 7800 2200
+AR Path="/62F7DDA1" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DDA1" Ref="SW29"  Part="1" 
+F 0 "SW29" V 7650 2200 50  0000 L CNN
+F 1 "SW_Push" H 7800 2394 50  0001 C CNN
+F 2 "" H 7800 2400 50  0001 C CNN
+F 3 "~" H 7800 2400 50  0001 C CNN
+	1    7800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD9B
+P 7150 2000
+AR Path="/62F7DD9B" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD9B" Ref="ND28"  Part="1" 
+F 0 "ND28" H 7000 1900 50  0000 L CNN
+F 1 "D" V 7105 1920 50  0001 R CNN
+F 2 "" H 7150 2000 50  0001 C CNN
+F 3 "~" H 7150 2000 50  0001 C CNN
+	1    7150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD95
+P 7300 2200
+AR Path="/62F7DD95" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD95" Ref="SW28"  Part="1" 
+F 0 "SW28" V 7150 2200 50  0000 L CNN
+F 1 "SW_Push" H 7300 2394 50  0001 C CNN
+F 2 "" H 7300 2400 50  0001 C CNN
+F 3 "~" H 7300 2400 50  0001 C CNN
+	1    7300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD8F
+P 6650 2000
+AR Path="/62F7DD8F" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD8F" Ref="ND27"  Part="1" 
+F 0 "ND27" H 6500 1900 50  0000 L CNN
+F 1 "D" V 6605 1920 50  0001 R CNN
+F 2 "" H 6650 2000 50  0001 C CNN
+F 3 "~" H 6650 2000 50  0001 C CNN
+	1    6650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD89
+P 6800 2200
+AR Path="/62F7DD89" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD89" Ref="SW27"  Part="1" 
+F 0 "SW27" V 6650 2200 50  0000 L CNN
+F 1 "SW_Push" H 6800 2394 50  0001 C CNN
+F 2 "" H 6800 2400 50  0001 C CNN
+F 3 "~" H 6800 2400 50  0001 C CNN
+	1    6800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD83
+P 6150 2000
+AR Path="/62F7DD83" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD83" Ref="ND26"  Part="1" 
+F 0 "ND26" H 6000 1900 50  0000 L CNN
+F 1 "D" V 6105 1920 50  0001 R CNN
+F 2 "" H 6150 2000 50  0001 C CNN
+F 3 "~" H 6150 2000 50  0001 C CNN
+	1    6150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD7D
+P 6300 2200
+AR Path="/62F7DD7D" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD7D" Ref="SW26"  Part="1" 
+F 0 "SW26" V 6150 2200 50  0000 L CNN
+F 1 "SW_Push" H 6300 2394 50  0001 C CNN
+F 2 "" H 6300 2400 50  0001 C CNN
+F 3 "~" H 6300 2400 50  0001 C CNN
+	1    6300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD77
+P 5650 2000
+AR Path="/62F7DD77" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD77" Ref="ND25"  Part="1" 
+F 0 "ND25" H 5500 1900 50  0000 L CNN
+F 1 "D" V 5605 1920 50  0001 R CNN
+F 2 "" H 5650 2000 50  0001 C CNN
+F 3 "~" H 5650 2000 50  0001 C CNN
+	1    5650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD71
+P 5800 2200
+AR Path="/62F7DD71" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD71" Ref="SW25"  Part="1" 
+F 0 "SW25" V 5650 2200 50  0000 L CNN
+F 1 "SW_Push" H 5800 2394 50  0001 C CNN
+F 2 "" H 5800 2400 50  0001 C CNN
+F 3 "~" H 5800 2400 50  0001 C CNN
+	1    5800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD6B
+P 5150 2000
+AR Path="/62F7DD6B" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD6B" Ref="ND24"  Part="1" 
+F 0 "ND24" H 5000 1900 50  0000 L CNN
+F 1 "D" V 5105 1920 50  0001 R CNN
+F 2 "" H 5150 2000 50  0001 C CNN
+F 3 "~" H 5150 2000 50  0001 C CNN
+	1    5150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD65
+P 5300 2200
+AR Path="/62F7DD65" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD65" Ref="SW24"  Part="1" 
+F 0 "SW24" V 5150 2200 50  0000 L CNN
+F 1 "SW_Push" H 5300 2394 50  0001 C CNN
+F 2 "" H 5300 2400 50  0001 C CNN
+F 3 "~" H 5300 2400 50  0001 C CNN
+	1    5300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD5F
+P 4650 2000
+AR Path="/62F7DD5F" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD5F" Ref="ND23"  Part="1" 
+F 0 "ND23" H 4500 1900 50  0000 L CNN
+F 1 "D" V 4605 1920 50  0001 R CNN
+F 2 "" H 4650 2000 50  0001 C CNN
+F 3 "~" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD59
+P 4800 2200
+AR Path="/62F7DD59" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD59" Ref="SW23"  Part="1" 
+F 0 "SW23" V 4650 2200 50  0000 L CNN
+F 1 "SW_Push" H 4800 2394 50  0001 C CNN
+F 2 "" H 4800 2400 50  0001 C CNN
+F 3 "~" H 4800 2400 50  0001 C CNN
+	1    4800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD53
+P 4150 2000
+AR Path="/62F7DD53" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD53" Ref="ND22"  Part="1" 
+F 0 "ND22" H 4000 1900 50  0000 L CNN
+F 1 "D" V 4105 1920 50  0001 R CNN
+F 2 "" H 4150 2000 50  0001 C CNN
+F 3 "~" H 4150 2000 50  0001 C CNN
+	1    4150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD4D
+P 4300 2200
+AR Path="/62F7DD4D" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD4D" Ref="SW22"  Part="1" 
+F 0 "SW22" V 4150 2200 50  0000 L CNN
+F 1 "SW_Push" H 4300 2394 50  0001 C CNN
+F 2 "" H 4300 2400 50  0001 C CNN
+F 3 "~" H 4300 2400 50  0001 C CNN
+	1    4300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD47
+P 3650 2000
+AR Path="/62F7DD47" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD47" Ref="ND21"  Part="1" 
+F 0 "ND21" H 3500 1900 50  0000 L CNN
+F 1 "D" V 3605 1920 50  0001 R CNN
+F 2 "" H 3650 2000 50  0001 C CNN
+F 3 "~" H 3650 2000 50  0001 C CNN
+	1    3650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD41
+P 3800 2200
+AR Path="/62F7DD41" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD41" Ref="SW21"  Part="1" 
+F 0 "SW21" V 3650 2200 50  0000 L CNN
+F 1 "SW_Push" H 3800 2394 50  0001 C CNN
+F 2 "" H 3800 2400 50  0001 C CNN
+F 3 "~" H 3800 2400 50  0001 C CNN
+	1    3800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD3B
+P 3150 2000
+AR Path="/62F7DD3B" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD3B" Ref="ND20"  Part="1" 
+F 0 "ND20" H 3000 1900 50  0000 L CNN
+F 1 "D" V 3105 1920 50  0001 R CNN
+F 2 "" H 3150 2000 50  0001 C CNN
+F 3 "~" H 3150 2000 50  0001 C CNN
+	1    3150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD35
+P 3300 2200
+AR Path="/62F7DD35" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD35" Ref="SW20"  Part="1" 
+F 0 "SW20" V 3150 2200 50  0000 L CNN
+F 1 "SW_Push" H 3300 2394 50  0001 C CNN
+F 2 "" H 3300 2400 50  0001 C CNN
+F 3 "~" H 3300 2400 50  0001 C CNN
+	1    3300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD2F
+P 2650 2000
+AR Path="/62F7DD2F" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD2F" Ref="ND19"  Part="1" 
+F 0 "ND19" H 2500 1900 50  0000 L CNN
+F 1 "D" V 2605 1920 50  0001 R CNN
+F 2 "" H 2650 2000 50  0001 C CNN
+F 3 "~" H 2650 2000 50  0001 C CNN
+	1    2650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD29
+P 2800 2200
+AR Path="/62F7DD29" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD29" Ref="SW19"  Part="1" 
+F 0 "SW19" V 2650 2200 50  0000 L CNN
+F 1 "SW_Push" H 2800 2394 50  0001 C CNN
+F 2 "" H 2800 2400 50  0001 C CNN
+F 3 "~" H 2800 2400 50  0001 C CNN
+	1    2800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD23
+P 2150 2000
+AR Path="/62F7DD23" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD23" Ref="ND18"  Part="1" 
+F 0 "ND18" H 2000 1900 50  0000 L CNN
+F 1 "D" V 2105 1920 50  0001 R CNN
+F 2 "" H 2150 2000 50  0001 C CNN
+F 3 "~" H 2150 2000 50  0001 C CNN
+	1    2150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD1D
+P 2300 2200
+AR Path="/62F7DD1D" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD1D" Ref="SW18"  Part="1" 
+F 0 "SW18" V 2150 2200 50  0000 L CNN
+F 1 "SW_Push" H 2300 2394 50  0001 C CNN
+F 2 "" H 2300 2400 50  0001 C CNN
+F 3 "~" H 2300 2400 50  0001 C CNN
+	1    2300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD17
+P 1650 2000
+AR Path="/62F7DD17" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD17" Ref="ND17"  Part="1" 
+F 0 "ND17" H 1500 1900 50  0000 L CNN
+F 1 "D" V 1605 1920 50  0001 R CNN
+F 2 "" H 1650 2000 50  0001 C CNN
+F 3 "~" H 1650 2000 50  0001 C CNN
+	1    1650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD11
+P 1800 2200
+AR Path="/62F7DD11" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD11" Ref="SW17"  Part="1" 
+F 0 "SW17" V 1650 2200 50  0000 L CNN
+F 1 "SW_Push" H 1800 2394 50  0001 C CNN
+F 2 "" H 1800 2400 50  0001 C CNN
+F 3 "~" H 1800 2400 50  0001 C CNN
+	1    1800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62F7DD0B
+P 1150 2000
+AR Path="/62F7DD0B" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62F7DD0B" Ref="ND16"  Part="1" 
+F 0 "ND16" H 1000 1900 50  0000 L CNN
+F 1 "D" V 1105 1920 50  0001 R CNN
+F 2 "" H 1150 2000 50  0001 C CNN
+F 3 "~" H 1150 2000 50  0001 C CNN
+	1    1150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F7DD05
+P 1300 2200
+AR Path="/62F7DD05" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62F7DD05" Ref="SW16"  Part="1" 
+F 0 "SW16" V 1150 2200 50  0000 L CNN
+F 1 "SW_Push" H 1300 2394 50  0001 C CNN
+F 2 "" H 1300 2400 50  0001 C CNN
+F 3 "~" H 1300 2400 50  0001 C CNN
+	1    1300 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FC0BB3
+P 8650 2000
+AR Path="/62FC0BB3" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FC0BB3" Ref="ND30"  Part="1" 
+F 0 "ND30" H 8500 1900 50  0000 L CNN
+F 1 "D" V 8605 1920 50  0001 R CNN
+F 2 "" H 8650 2000 50  0001 C CNN
+F 3 "~" H 8650 2000 50  0001 C CNN
+	1    8650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FC0BB9
+P 8800 2200
+AR Path="/62FC0BB9" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FC0BB9" Ref="SW30"  Part="1" 
+F 0 "SW30" V 8650 2200 50  0000 L CNN
+F 1 "SW_Push" H 8800 2394 50  0001 C CNN
+F 2 "" H 8800 2400 50  0001 C CNN
+F 3 "~" H 8800 2400 50  0001 C CNN
+	1    8800 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D ND?
+U 1 1 62FC2938
+P 8650 3000
+AR Path="/62FC2938" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/62FC2938" Ref="ND45"  Part="1" 
+F 0 "ND45" H 8500 2900 50  0000 L CNN
+F 1 "D" V 8605 2920 50  0001 R CNN
+F 2 "" H 8650 3000 50  0001 C CNN
+F 3 "~" H 8650 3000 50  0001 C CNN
+	1    8650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62FC293E
+P 8800 3200
+AR Path="/62FC293E" Ref="SW?"  Part="1" 
+AR Path="/62F582B9/62FC293E" Ref="SW45"  Part="1" 
+F 0 "SW45" V 8650 3200 50  0000 L CNN
+F 1 "SW_Push" H 8800 3394 50  0001 C CNN
+F 2 "" H 8800 3400 50  0001 C CNN
+F 3 "~" H 8800 3400 50  0001 C CNN
+	1    8800 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 1000 1000 2000
+Connection ~ 1000 2000
+Connection ~ 1000 3000
+Wire Wire Line
+	1000 3000 1000 4000
+Connection ~ 1000 4000
+Wire Wire Line
+	1000 4000 1000 5000
+Connection ~ 1000 5000
+Wire Wire Line
+	1000 5000 1000 6000
+Wire Wire Line
+	1300 1400 1800 1400
+Connection ~ 1800 1400
+Wire Wire Line
+	1800 1400 2300 1400
+Connection ~ 2300 1400
+Wire Wire Line
+	2300 1400 2800 1400
+Connection ~ 2800 1400
+Wire Wire Line
+	2800 1400 3300 1400
+Connection ~ 3300 1400
+Wire Wire Line
+	3300 1400 3800 1400
+Connection ~ 3800 1400
+Wire Wire Line
+	3800 1400 4300 1400
+Connection ~ 4300 1400
+Wire Wire Line
+	4300 1400 4800 1400
+Connection ~ 4800 1400
+Wire Wire Line
+	4800 1400 5300 1400
+Connection ~ 5300 1400
+Wire Wire Line
+	5300 1400 5800 1400
+Connection ~ 5800 1400
+Wire Wire Line
+	5800 1400 6300 1400
+Connection ~ 6300 1400
+Wire Wire Line
+	6300 1400 6800 1400
+Connection ~ 6800 1400
+Wire Wire Line
+	6800 1400 7300 1400
+Connection ~ 7300 1400
+Wire Wire Line
+	7300 1400 7800 1400
+Wire Wire Line
+	8800 1400 8800 1300
+Wire Wire Line
+	1300 2400 1800 2400
+Connection ~ 1800 2400
+Wire Wire Line
+	1800 2400 2300 2400
+Connection ~ 2300 2400
+Wire Wire Line
+	2300 2400 2800 2400
+Connection ~ 2800 2400
+Wire Wire Line
+	2800 2400 3300 2400
+Connection ~ 3300 2400
+Wire Wire Line
+	3300 2400 3800 2400
+Connection ~ 3800 2400
+Wire Wire Line
+	3800 2400 4300 2400
+Connection ~ 4300 2400
+Wire Wire Line
+	4300 2400 4800 2400
+Connection ~ 4800 2400
+Wire Wire Line
+	4800 2400 5300 2400
+Connection ~ 5300 2400
+Wire Wire Line
+	5300 2400 5800 2400
+Connection ~ 5800 2400
+Wire Wire Line
+	5800 2400 6300 2400
+Connection ~ 6300 2400
+Wire Wire Line
+	6300 2400 6800 2400
+Connection ~ 6800 2400
+Wire Wire Line
+	6800 2400 7300 2400
+Connection ~ 7300 2400
+Wire Wire Line
+	7300 2400 7800 2400
+Wire Wire Line
+	1300 3400 1800 3400
+Connection ~ 1800 3400
+Wire Wire Line
+	1800 3400 2300 3400
+Connection ~ 2300 3400
+Wire Wire Line
+	2300 3400 2800 3400
+Connection ~ 2800 3400
+Wire Wire Line
+	2800 3400 3300 3400
+Connection ~ 3300 3400
+Wire Wire Line
+	3300 3400 3800 3400
+Connection ~ 3800 3400
+Wire Wire Line
+	3800 3400 4300 3400
+Connection ~ 4300 3400
+Wire Wire Line
+	4300 3400 4800 3400
+Connection ~ 4800 3400
+Wire Wire Line
+	4800 3400 5300 3400
+Connection ~ 5300 3400
+Wire Wire Line
+	5300 3400 5800 3400
+Connection ~ 5800 3400
+Wire Wire Line
+	5800 3400 6300 3400
+Connection ~ 6300 3400
+Wire Wire Line
+	6300 3400 6800 3400
+Connection ~ 6800 3400
+Wire Wire Line
+	6800 3400 7300 3400
+Connection ~ 7300 3400
+Wire Wire Line
+	7300 3400 7800 3400
+Wire Wire Line
+	1300 4400 1800 4400
+Connection ~ 1800 4400
+Wire Wire Line
+	1800 4400 2300 4400
+Connection ~ 2300 4400
+Wire Wire Line
+	2300 4400 2800 4400
+Connection ~ 2800 4400
+Wire Wire Line
+	2800 4400 3300 4400
+Connection ~ 3300 4400
+Wire Wire Line
+	3300 4400 3800 4400
+Connection ~ 3800 4400
+Wire Wire Line
+	3800 4400 4300 4400
+Connection ~ 4300 4400
+Wire Wire Line
+	4300 4400 4800 4400
+Connection ~ 4800 4400
+Wire Wire Line
+	4800 4400 5300 4400
+Connection ~ 5300 4400
+Wire Wire Line
+	5300 4400 5800 4400
+Connection ~ 5800 4400
+Wire Wire Line
+	5800 4400 6300 4400
+Connection ~ 6300 4400
+Wire Wire Line
+	6300 4400 6800 4400
+Connection ~ 6800 4400
+Connection ~ 2300 5400
+Wire Wire Line
+	2300 5400 2800 5400
+Connection ~ 2800 5400
+Wire Wire Line
+	2800 5400 3300 5400
+Connection ~ 3300 5400
+Wire Wire Line
+	3300 5400 3800 5400
+Connection ~ 3800 5400
+Wire Wire Line
+	3800 5400 4300 5400
+Connection ~ 4300 5400
+Wire Wire Line
+	4300 5400 4800 5400
+Connection ~ 4800 5400
+Wire Wire Line
+	4800 5400 5300 5400
+Connection ~ 5300 5400
+Wire Wire Line
+	5300 5400 5800 5400
+Connection ~ 5800 5400
+Wire Wire Line
+	5800 5400 6300 5400
+Connection ~ 6300 5400
+Wire Wire Line
+	1300 6400 1800 6400
+Connection ~ 1800 6400
+Wire Wire Line
+	1800 6400 2300 6400
+Connection ~ 2300 6400
+Connection ~ 7300 6400
+Wire Wire Line
+	7300 6400 7800 6400
+Wire Wire Line
+	8500 1000 8500 2000
+Connection ~ 8500 2000
+Wire Wire Line
+	8500 2000 8500 3000
+Connection ~ 8500 3000
+Wire Wire Line
+	8500 3000 8500 4000
+Connection ~ 8500 4000
+Wire Wire Line
+	8500 4000 8500 6000
+Wire Wire Line
+	6300 5400 6800 5400
+Connection ~ 7000 2000
+Wire Wire Line
+	7000 2000 7000 1000
+Wire Wire Line
+	1500 1000 1500 2000
+Connection ~ 1500 2000
+Wire Wire Line
+	1500 2000 1500 3000
+Connection ~ 1500 3000
+Wire Wire Line
+	1500 3000 1500 4000
+Connection ~ 6800 5400
+Wire Wire Line
+	1300 5400 2300 5400
+Wire Wire Line
+	1500 4000 1500 6000
+Connection ~ 1500 4000
+Wire Wire Line
+	2000 1000 2000 2000
+Connection ~ 2000 2000
+Wire Wire Line
+	2000 2000 2000 3000
+Connection ~ 2000 3000
+Wire Wire Line
+	2000 3000 2000 4000
+Connection ~ 2000 4000
+Wire Wire Line
+	2000 4000 2000 5000
+Connection ~ 2000 5000
+Wire Wire Line
+	2000 5000 2000 6000
+Wire Wire Line
+	2500 1000 2500 2000
+Connection ~ 2500 2000
+Wire Wire Line
+	2500 2000 2500 3000
+Connection ~ 2500 3000
+Wire Wire Line
+	2500 3000 2500 4000
+Connection ~ 2500 4000
+Wire Wire Line
+	2500 4000 2500 5000
+Wire Wire Line
+	3000 5000 3000 4000
+Connection ~ 3000 2000
+Wire Wire Line
+	3000 2000 3000 1000
+Connection ~ 3000 3000
+Wire Wire Line
+	3000 3000 3000 2000
+Connection ~ 3000 4000
+Wire Wire Line
+	3000 4000 3000 3000
+Wire Wire Line
+	3500 5000 3500 4000
+Connection ~ 3500 2000
+Wire Wire Line
+	3500 2000 3500 1000
+Connection ~ 3500 3000
+Wire Wire Line
+	3500 3000 3500 2000
+Connection ~ 3500 4000
+Wire Wire Line
+	3500 4000 3500 3000
+Connection ~ 4300 6400
+Wire Wire Line
+	2300 6400 3300 6400
+Wire Wire Line
+	4000 6000 4000 5000
+Connection ~ 4000 2000
+Wire Wire Line
+	4000 2000 4000 1000
+Connection ~ 4000 3000
+Wire Wire Line
+	4000 3000 4000 2000
+Connection ~ 4000 4000
+Wire Wire Line
+	4000 4000 4000 3000
+Connection ~ 4000 5000
+Wire Wire Line
+	4000 5000 4000 4000
+Wire Wire Line
+	4500 5000 4500 4000
+Connection ~ 4500 2000
+Wire Wire Line
+	4500 2000 4500 1000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4500 2000
+Connection ~ 4500 4000
+Wire Wire Line
+	4500 4000 4500 3000
+Wire Wire Line
+	5000 5000 5000 4000
+Connection ~ 5000 2000
+Wire Wire Line
+	5000 2000 5000 1000
+Connection ~ 5000 3000
+Wire Wire Line
+	5000 3000 5000 2000
+Connection ~ 5000 4000
+Wire Wire Line
+	5000 4000 5000 3000
+Connection ~ 6300 6400
+Wire Wire Line
+	5500 5000 5500 4000
+Connection ~ 5500 2000
+Wire Wire Line
+	5500 2000 5500 1000
+Connection ~ 5500 3000
+Wire Wire Line
+	5500 3000 5500 2000
+Connection ~ 5500 4000
+Wire Wire Line
+	5500 4000 5500 3000
+Wire Wire Line
+	6000 5000 6000 4000
+Connection ~ 6000 2000
+Wire Wire Line
+	6000 2000 6000 1000
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3000 6000 2000
+Connection ~ 6000 4000
+Wire Wire Line
+	6000 4000 6000 3000
+Connection ~ 6000 5000
+Connection ~ 6500 2000
+Wire Wire Line
+	6500 2000 6500 1000
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 6500 2000
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 4000 6500 3000
+Connection ~ 6500 5000
+Wire Wire Line
+	6500 5000 6500 4000
+Wire Wire Line
+	7800 3400 8800 3400
+Connection ~ 7800 3400
+Wire Wire Line
+	7800 6400 8300 6400
+Connection ~ 7800 6400
+Wire Wire Line
+	7800 1400 8800 1400
+Connection ~ 7800 1400
+Wire Wire Line
+	7800 2400 8800 2400
+Connection ~ 7800 2400
+Connection ~ 8300 6400
+Wire Wire Line
+	8300 6400 8800 6400
+Wire Wire Line
+	6300 6400 6800 6400
+Connection ~ 6800 6400
+Wire Wire Line
+	6800 6400 7300 6400
+Wire Wire Line
+	4300 6400 6300 6400
+Wire Wire Line
+	6500 5000 6500 6000
+Wire Wire Line
+	6000 5000 6000 6000
+Connection ~ 7800 4400
+Wire Wire Line
+	7800 4400 8800 4400
+Wire Wire Line
+	6800 4400 7800 4400
+Wire Wire Line
+	6800 5400 7800 5400
+Wire Wire Line
+	7800 5400 8300 5400
+Connection ~ 7800 5400
+Wire Wire Line
+	7000 2000 7000 3000
+Connection ~ 7000 3000
+Wire Wire Line
+	7000 3000 7000 6000
+Wire Wire Line
+	7500 1000 7500 2000
+Connection ~ 7500 2000
+Wire Wire Line
+	7500 2000 7500 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	7500 3000 7500 4000
+Connection ~ 7500 4000
+Wire Wire Line
+	7500 4000 7500 5000
+Connection ~ 7500 5000
+Wire Wire Line
+	7500 5000 7500 6000
+Wire Wire Line
+	8000 6000 8000 5000
+Text HLabel 900  1400 0    50   UnSpc ~ 0
+ROW1
+Text HLabel 900  2400 0    50   UnSpc ~ 0
+ROW2
+Wire Wire Line
+	900  1400 1300 1400
+Connection ~ 1300 1400
+Wire Wire Line
+	1000 2000 1000 3000
+Wire Wire Line
+	900  2400 1300 2400
+Connection ~ 1300 2400
+Text HLabel 900  3400 0    50   UnSpc ~ 0
+ROW3
+Wire Wire Line
+	900  3400 1300 3400
+Connection ~ 1300 3400
+Text HLabel 900  4400 0    50   UnSpc ~ 0
+ROW4
+Text HLabel 900  5400 0    50   UnSpc ~ 0
+ROW5
+Text HLabel 900  6400 0    50   UnSpc ~ 0
+ROW6
+Wire Wire Line
+	900  6400 1300 6400
+Connection ~ 1300 6400
+Wire Wire Line
+	900  5400 1300 5400
+Connection ~ 1300 5400
+Wire Wire Line
+	900  4400 1300 4400
+Connection ~ 1300 4400
+Text HLabel 1000 900  1    50   UnSpc ~ 0
+COL01
+Wire Wire Line
+	1000 900  1000 1000
+Connection ~ 1000 1000
+Text HLabel 1500 900  1    50   UnSpc ~ 0
+COL02
+Text HLabel 2000 900  1    50   UnSpc ~ 0
+COL03
+Text HLabel 2500 900  1    50   UnSpc ~ 0
+COL04
+Text HLabel 3000 900  1    50   UnSpc ~ 0
+COL05
+Text HLabel 3500 900  1    50   UnSpc ~ 0
+COL06
+Text HLabel 4000 900  1    50   UnSpc ~ 0
+COL07
+Text HLabel 4500 900  1    50   UnSpc ~ 0
+COL08
+Text HLabel 5000 900  1    50   UnSpc ~ 0
+COL09
+Text HLabel 5500 900  1    50   UnSpc ~ 0
+COL10
+Text HLabel 6000 900  1    50   UnSpc ~ 0
+COL11
+Text HLabel 6500 900  1    50   UnSpc ~ 0
+COL12
+Text HLabel 7000 900  1    50   UnSpc ~ 0
+COL13
+Text HLabel 7500 900  1    50   UnSpc ~ 0
+COL14
+Text HLabel 8000 900  1    50   UnSpc ~ 0
+COL15
+Text HLabel 8500 900  1    50   UnSpc ~ 0
+COL16
+Wire Wire Line
+	8500 900  8500 1000
+Connection ~ 8500 1000
+Wire Wire Line
+	8000 900  8000 5000
+Connection ~ 8000 5000
+Wire Wire Line
+	7500 900  7500 1000
+Connection ~ 7500 1000
+Wire Wire Line
+	7000 900  7000 1000
+Connection ~ 7000 1000
+Wire Wire Line
+	6500 900  6500 1000
+Connection ~ 6500 1000
+Wire Wire Line
+	6000 900  6000 1000
+Connection ~ 6000 1000
+Wire Wire Line
+	5500 900  5500 1000
+Connection ~ 5500 1000
+Wire Wire Line
+	5000 900  5000 1000
+Connection ~ 5000 1000
+Wire Wire Line
+	4500 900  4500 1000
+Connection ~ 4500 1000
+Wire Wire Line
+	4000 900  4000 1000
+Connection ~ 4000 1000
+Wire Wire Line
+	3500 900  3500 1000
+Connection ~ 3500 1000
+Wire Wire Line
+	3000 900  3000 1000
+Connection ~ 3000 1000
+Wire Wire Line
+	2500 900  2500 1000
+Connection ~ 2500 1000
+Wire Wire Line
+	2000 900  2000 1000
+Connection ~ 2000 1000
+Wire Wire Line
+	1500 900  1500 1000
+Connection ~ 1500 1000
+Text HLabel 9400 1300 2    50   UnSpc ~ 0
+ENC_A
+Text HLabel 9400 1100 2    50   UnSpc ~ 0
+ENC_B
+$Comp
+L power:GND #PWR?
+U 1 1 6330A567
+P 9400 1200
+F 0 "#PWR?" H 9400 950 50  0001 C CNN
+F 1 "GND" V 9405 1072 50  0001 R CNN
+F 2 "" H 9400 1200 50  0001 C CNN
+F 3 "" H 9400 1200 50  0001 C CNN
+	1    9400 1200
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3400 6300 2    50   UnSpc ~ 0
+DIP_B
+Text HLabel 3400 6100 2    50   UnSpc ~ 0
+DIP_A
+$Comp
+L Device:D ND?
+U 1 1 63329736
+P 3150 6000
+AR Path="/63329736" Ref="ND?"  Part="1" 
+AR Path="/62F582B9/63329736" Ref="ND0"  Part="1" 
+F 0 "ND0" H 3000 5900 50  0000 L CNN
+F 1 "D" V 3105 5920 50  0001 R CNN
+F 2 "" H 3150 6000 50  0001 C CNN
+F 3 "~" H 3150 6000 50  0001 C CNN
+	1    3150 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6300 3300 6400
+Connection ~ 3300 6400
+Wire Wire Line
+	3300 6400 4300 6400
+Wire Wire Line
+	3300 6100 3300 6000
+Wire Wire Line
+	3000 5000 3000 6000
+Connection ~ 3000 5000
+Wire Wire Line
+	3400 6300 3300 6300
+Wire Wire Line
+	3400 6100 3300 6100
+$EndSCHEMATC
