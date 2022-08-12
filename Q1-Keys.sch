@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -2668,10 +2668,10 @@ ENC_A
 Text HLabel 9400 1100 2    50   UnSpc ~ 0
 ENC_B
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 6330A567
 P 9400 1200
-F 0 "#PWR?" H 9400 950 50  0001 C CNN
+F 0 "#PWR06" H 9400 950 50  0001 C CNN
 F 1 "GND" V 9405 1072 50  0001 R CNN
 F 2 "" H 9400 1200 50  0001 C CNN
 F 3 "" H 9400 1200 50  0001 C CNN
