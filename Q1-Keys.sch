@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -2551,10 +2551,6 @@ Wire Wire Line
 	7500 5000 7500 6000
 Wire Wire Line
 	8000 6000 8000 5000
-Text HLabel 900  1400 0    50   UnSpc ~ 0
-ROW1
-Text HLabel 900  2400 0    50   UnSpc ~ 0
-ROW2
 Wire Wire Line
 	900  1400 1300 1400
 Connection ~ 1300 1400
@@ -2563,17 +2559,9 @@ Wire Wire Line
 Wire Wire Line
 	900  2400 1300 2400
 Connection ~ 1300 2400
-Text HLabel 900  3400 0    50   UnSpc ~ 0
-ROW3
 Wire Wire Line
 	900  3400 1300 3400
 Connection ~ 1300 3400
-Text HLabel 900  4400 0    50   UnSpc ~ 0
-ROW4
-Text HLabel 900  5400 0    50   UnSpc ~ 0
-ROW5
-Text HLabel 900  6400 0    50   UnSpc ~ 0
-ROW6
 Wire Wire Line
 	900  6400 1300 6400
 Connection ~ 1300 6400
@@ -2583,41 +2571,9 @@ Connection ~ 1300 5400
 Wire Wire Line
 	900  4400 1300 4400
 Connection ~ 1300 4400
-Text HLabel 1000 900  1    50   UnSpc ~ 0
-COL01
 Wire Wire Line
 	1000 900  1000 1000
 Connection ~ 1000 1000
-Text HLabel 1500 900  1    50   UnSpc ~ 0
-COL02
-Text HLabel 2000 900  1    50   UnSpc ~ 0
-COL03
-Text HLabel 2500 900  1    50   UnSpc ~ 0
-COL04
-Text HLabel 3000 900  1    50   UnSpc ~ 0
-COL05
-Text HLabel 3500 900  1    50   UnSpc ~ 0
-COL06
-Text HLabel 4000 900  1    50   UnSpc ~ 0
-COL07
-Text HLabel 4500 900  1    50   UnSpc ~ 0
-COL08
-Text HLabel 5000 900  1    50   UnSpc ~ 0
-COL09
-Text HLabel 5500 900  1    50   UnSpc ~ 0
-COL10
-Text HLabel 6000 900  1    50   UnSpc ~ 0
-COL11
-Text HLabel 6500 900  1    50   UnSpc ~ 0
-COL12
-Text HLabel 7000 900  1    50   UnSpc ~ 0
-COL13
-Text HLabel 7500 900  1    50   UnSpc ~ 0
-COL14
-Text HLabel 8000 900  1    50   UnSpc ~ 0
-COL15
-Text HLabel 8500 900  1    50   UnSpc ~ 0
-COL16
 Wire Wire Line
 	8500 900  8500 1000
 Connection ~ 8500 1000
@@ -2663,10 +2619,6 @@ Connection ~ 2000 1000
 Wire Wire Line
 	1500 900  1500 1000
 Connection ~ 1500 1000
-Text HLabel 9400 1300 2    50   UnSpc ~ 0
-ENC_A
-Text HLabel 9400 1100 2    50   UnSpc ~ 0
-ENC_B
 $Comp
 L power:GND #PWR06
 U 1 1 6330A567
@@ -2678,10 +2630,6 @@ F 3 "" H 9400 1200 50  0001 C CNN
 	1    9400 1200
 	0    -1   -1   0   
 $EndComp
-Text HLabel 3400 6300 2    50   UnSpc ~ 0
-DIP_B
-Text HLabel 3400 6100 2    50   UnSpc ~ 0
-DIP_A
 $Comp
 L Device:D ND?
 U 1 1 63329736
@@ -2709,4 +2657,56 @@ Wire Wire Line
 	3400 6300 3300 6300
 Wire Wire Line
 	3400 6100 3300 6100
+Text GLabel 9400 1300 2    50   Output ~ 0
+ENC_A
+Text GLabel 9400 1100 2    50   Output ~ 0
+ENC_B
+Text GLabel 1500 900  1    50   Input ~ 0
+COL01
+Text GLabel 2000 900  1    50   Input ~ 0
+COL02
+Text GLabel 2500 900  1    50   Input ~ 0
+COL03
+Text GLabel 3000 900  1    50   Input ~ 0
+COL04
+Text GLabel 3500 900  1    50   Input ~ 0
+COL05
+Text GLabel 4000 900  1    50   Input ~ 0
+COL06
+Text GLabel 4500 900  1    50   Input ~ 0
+COL07
+Text GLabel 5000 900  1    50   Input ~ 0
+COL08
+Text GLabel 5500 900  1    50   Input ~ 0
+COL09
+Text GLabel 6000 900  1    50   Input ~ 0
+COL10
+Text GLabel 6500 900  1    50   Input ~ 0
+COL11
+Text GLabel 7000 900  1    50   Input ~ 0
+COL12
+Text GLabel 7500 900  1    50   Input ~ 0
+COL13
+Text GLabel 8000 900  1    50   Input ~ 0
+COL14
+Text GLabel 8500 900  1    50   Input ~ 0
+COL15
+Text GLabel 1000 900  1    50   Input ~ 0
+COL00
+Text GLabel 900  1400 0    50   Output ~ 0
+ROW0
+Text GLabel 900  2400 0    50   Output ~ 0
+ROW1
+Text GLabel 900  3400 0    50   Output ~ 0
+ROW2
+Text GLabel 900  4400 0    50   Output ~ 0
+ROW3
+Text GLabel 900  5400 0    50   Output ~ 0
+ROW4
+Text GLabel 900  6400 0    50   Output ~ 0
+ROW5
+Text GLabel 3400 6100 2    50   UnSpc ~ 0
+DIP_A
+Text GLabel 3400 6300 2    50   UnSpc ~ 0
+DIP_B
 $EndSCHEMATC

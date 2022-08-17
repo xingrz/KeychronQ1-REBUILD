@@ -4,292 +4,333 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
+Title "Keychron Q1"
+Date "2022-08-17"
+Rev "V2.2"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 9500 1000 1000 3000
-U 62F582B9
-F0 "Keys" 50
-F1 "Q1-Keys.sch" 50
-F2 "ROW1" U L 9500 1100 50 
-F3 "ROW2" U L 9500 1200 50 
-F4 "ROW3" U L 9500 1300 50 
-F5 "ROW4" U L 9500 1400 50 
-F6 "ROW5" U L 9500 1500 50 
-F7 "ROW6" U L 9500 1600 50 
-F8 "COL01" U L 9500 1800 50 
-F9 "COL02" U L 9500 1900 50 
-$EndSheet
 $Comp
 L MCU_ST_STM32L4:STM32L432KBUx U6
 U 1 1 632AF449
-P 4400 3300
-F 0 "U6" H 4400 4381 50  0000 C CNN
-F 1 "STM32L432KBU6" H 4400 4290 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 4000 2400 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf" H 4400 3300 50  0001 C CNN
-	1    4400 3300
+P 4500 2200
+F 0 "U6" H 4650 3150 50  0000 L CNN
+F 1 "STM32L432KBU6" H 4650 3050 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 4100 1300 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257205.pdf" H 4500 2200 50  0001 C CNN
+	1    4500 2200
 	1    0    0    -1  
 $EndComp
-Text HLabel 3900 3200 0    50   UnSpc ~ 0
-COL01
-Text HLabel 3900 3300 0    50   UnSpc ~ 0
-COL02
-Text HLabel 4900 2600 2    50   UnSpc ~ 0
-COL03
-Text HLabel 4900 2700 2    50   UnSpc ~ 0
-COL04
-Text HLabel 4900 2800 2    50   UnSpc ~ 0
-COL05
-Text HLabel 4900 2900 2    50   UnSpc ~ 0
-COL06
-Text HLabel 4900 3000 2    50   UnSpc ~ 0
-COL07
-Text HLabel 4900 3100 2    50   UnSpc ~ 0
-COL08
-Text HLabel 7700 2600 2    50   UnSpc ~ 0
-COL09
-Text HLabel 7700 2700 2    50   UnSpc ~ 0
-COL10
-Text HLabel 7700 2800 2    50   UnSpc ~ 0
-COL11
-Text HLabel 7700 2900 2    50   UnSpc ~ 0
-COL12
-Text HLabel 7700 3000 2    50   UnSpc ~ 0
-COL13
-Text HLabel 7700 3100 2    50   UnSpc ~ 0
-COL14
-Text HLabel 7700 3200 2    50   UnSpc ~ 0
-COL15
-Text HLabel 7700 3300 2    50   UnSpc ~ 0
-COL16
-Text HLabel 3900 3900 0    50   UnSpc ~ 0
-ROW1
-Text HLabel 3900 3800 0    50   UnSpc ~ 0
-ROW2
-Text HLabel 3900 3700 0    50   UnSpc ~ 0
-ROW3
-Text HLabel 4900 4100 2    50   UnSpc ~ 0
-ROW4
-Text HLabel 4900 4000 2    50   UnSpc ~ 0
-ROW5
-Text HLabel 4900 3900 2    50   UnSpc ~ 0
-ROW6
 $Comp
 L power:GND #PWR05
 U 1 1 632D3678
-P 7300 3700
-F 0 "#PWR05" H 7300 3450 50  0001 C CNN
-F 1 "GND" H 7305 3527 50  0001 C CNN
-F 2 "" H 7300 3700 50  0001 C CNN
-F 3 "" H 7300 3700 50  0001 C CNN
-	1    7300 3700
+P 7900 2600
+F 0 "#PWR05" H 7900 2350 50  0001 C CNN
+F 1 "GND" H 7905 2427 50  0001 C CNN
+F 2 "" H 7900 2600 50  0001 C CNN
+F 3 "" H 7900 2600 50  0001 C CNN
+	1    7900 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC595 U7
 U 1 1 632BB9F7
-P 7300 3000
-F 0 "U7" H 7300 3781 50  0000 C CNN
-F 1 "74HC595" H 7300 3690 50  0000 C CNN
-F 2 "" H 7300 3000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7300 3000 50  0001 C CNN
-	1    7300 3000
+P 7900 1900
+F 0 "U7" H 7950 2550 50  0000 L CNN
+F 1 "74HC595" H 7950 2450 50  0000 L CNN
+F 2 "" H 7900 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 7900 1900 50  0001 C CNN
+	1    7900 1900
 	1    0    0    -1  
 $EndComp
-Text Label 5300 3300 2    50   ~ 0
+Text Label 5400 2200 2    50   ~ 0
 EX_SER
-Text Label 6500 2600 0    50   ~ 0
+Text Label 7100 1500 0    50   ~ 0
 EX_SER
 Wire Wire Line
-	4900 3300 5300 3300
+	5000 2200 5400 2200
 Wire Wire Line
-	6500 2600 6900 2600
+	7100 1500 7500 1500
 $Comp
 L power:GND #PWR04
 U 1 1 632E9271
-P 6900 3200
-F 0 "#PWR04" H 6900 2950 50  0001 C CNN
-F 1 "GND" H 6905 3027 50  0001 C CNN
-F 2 "" H 6900 3200 50  0001 C CNN
-F 3 "" H 6900 3200 50  0001 C CNN
-	1    6900 3200
+P 7500 2100
+F 0 "#PWR04" H 7500 1850 50  0001 C CNN
+F 1 "GND" H 7505 1927 50  0001 C CNN
+F 2 "" H 7500 2100 50  0001 C CNN
+F 3 "" H 7500 2100 50  0001 C CNN
+	1    7500 2100
 	0    1    1    0   
 $EndComp
-Text Label 3500 3500 0    50   ~ 0
+Text Label 3600 2400 0    50   ~ 0
 EX_RCLK
 Wire Wire Line
-	3500 3500 3900 3500
-Text Label 3500 3600 0    50   ~ 0
+	3600 2400 4000 2400
+Text Label 3600 2500 0    50   ~ 0
 EX_SRCLK
 Wire Wire Line
-	3500 3600 3900 3600
-Text Label 6500 3100 0    50   ~ 0
+	3600 2500 4000 2500
+Text Label 7100 2000 0    50   ~ 0
 EX_RCLK
 Wire Wire Line
-	6500 3100 6900 3100
-Text Label 6500 2800 0    50   ~ 0
+	7100 2000 7500 2000
+Text Label 7100 1700 0    50   ~ 0
 EX_SRCLK
 Wire Wire Line
-	6500 2800 6900 2800
-NoConn ~ 6900 2900
-NoConn ~ 7700 3500
+	7100 1700 7500 1700
+NoConn ~ 7500 1800
+NoConn ~ 8300 2400
 $Comp
 L Connector_Generic_Shielded:Conn_01x07_Shielded JP2
 U 1 1 632F195F
-P 2200 2300
-F 0 "JP2" H 2288 2217 50  0000 L CNN
-F 1 "Conn_01x07_Shielded" H 2288 2172 50  0001 L CNN
-F 2 "" H 2200 2300 50  0001 C CNN
-F 3 "~" H 2200 2300 50  0001 C CNN
-	1    2200 2300
+P 2200 1800
+F 0 "JP2" H 2288 1717 50  0000 L CNN
+F 1 "Conn_01x07_Shielded" H 2288 1672 50  0001 L CNN
+F 2 "" H 2200 1800 50  0001 C CNN
+F 3 "~" H 2200 1800 50  0001 C CNN
+	1    2200 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 632F2C5C
-P 2200 2800
-F 0 "#PWR02" H 2200 2550 50  0001 C CNN
-F 1 "GND" H 2205 2627 50  0001 C CNN
-F 2 "" H 2200 2800 50  0001 C CNN
-F 3 "" H 2200 2800 50  0001 C CNN
-	1    2200 2800
+P 2200 2300
+F 0 "#PWR02" H 2200 2050 50  0001 C CNN
+F 1 "GND" H 2205 2127 50  0001 C CNN
+F 2 "" H 2200 2300 50  0001 C CNN
+F 3 "" H 2200 2300 50  0001 C CNN
+	1    2200 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 632F403D
-P 2000 2300
-F 0 "#PWR01" H 2000 2050 50  0001 C CNN
-F 1 "GND" H 2005 2127 50  0001 C CNN
-F 2 "" H 2000 2300 50  0001 C CNN
-F 3 "" H 2000 2300 50  0001 C CNN
-	1    2000 2300
+P 2000 1800
+F 0 "#PWR01" H 2000 1550 50  0001 C CNN
+F 1 "GND" H 2005 1627 50  0001 C CNN
+F 2 "" H 2000 1800 50  0001 C CNN
+F 3 "" H 2000 1800 50  0001 C CNN
+	1    2000 1800
 	0    1    1    0   
 $EndComp
-Text Label 1700 2600 0    50   ~ 0
-VBUS
-Wire Wire Line
-	1700 2600 2000 2600
-Text Label 5800 3800 2    50   ~ 0
+Text Label 6300 2700 2    50   ~ 0
 USB_D+
-Text Label 5800 3700 2    50   ~ 0
+Text Label 6300 2600 2    50   ~ 0
 USB_D-
 Wire Wire Line
-	5800 3700 5400 3700
+	6300 2600 5900 2600
 Wire Wire Line
-	5800 3800 5400 3800
+	6300 2700 5900 2700
 $Comp
 L Device:R_US R3
 U 1 1 632FAA46
-P 5250 3800
-F 0 "R3" V 5200 3700 50  0000 R CNN
-F 1 "R" V 5136 3800 50  0001 C CNN
-F 2 "" V 5290 3790 50  0001 C CNN
-F 3 "~" H 5250 3800 50  0001 C CNN
-	1    5250 3800
-	0    1    1    0   
+P 5750 2700
+F 0 "R3" V 5700 2600 50  0000 R CNN
+F 1 "R" V 5636 2700 50  0001 C CNN
+F 2 "" V 5790 2690 50  0001 C CNN
+F 3 "~" H 5750 2700 50  0001 C CNN
+	1    5750 2700
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_US R4
 U 1 1 632FBA38
-P 5250 3700
-F 0 "R4" V 5200 3600 50  0000 R CNN
-F 1 "R" V 5136 3700 50  0001 C CNN
-F 2 "" V 5290 3690 50  0001 C CNN
-F 3 "~" H 5250 3700 50  0001 C CNN
-	1    5250 3700
-	0    1    1    0   
+P 5750 2600
+F 0 "R4" V 5700 2500 50  0000 R CNN
+F 1 "R" V 5636 2600 50  0001 C CNN
+F 2 "" V 5790 2590 50  0001 C CNN
+F 3 "~" H 5750 2600 50  0001 C CNN
+	1    5750 2600
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5100 3800 4900 3800
-Wire Wire Line
-	4900 3700 5100 3700
-Text Label 1700 2500 0    50   ~ 0
+Text Label 1700 2000 0    50   ~ 0
 USB_D-
 Wire Wire Line
-	1700 2500 2000 2500
-Text Label 1700 2400 0    50   ~ 0
+	1700 2000 2000 2000
+Text Label 1700 1900 0    50   ~ 0
 USB_D+
 Wire Wire Line
-	1700 2400 2000 2400
-Text HLabel 1700 2100 0    50   UnSpc ~ 0
-DIP_B
-Text HLabel 4900 3600 2    50   UnSpc ~ 0
-ENC_A
-Text HLabel 4900 3400 2    50   UnSpc ~ 0
-ENC_B
+	1700 1900 2000 1900
 $Comp
-L Connector:TestPoint TX1
+L Connector:TestPoint TP1
 U 1 1 6330BE5C
-P 4900 3500
-F 0 "TX1" V 4900 3688 50  0000 L CNN
-F 1 "TestPoint" V 4945 3688 50  0001 L CNN
-F 2 "" H 5100 3500 50  0001 C CNN
-F 3 "~" H 5100 3500 50  0001 C CNN
-	1    4900 3500
+P 5000 2400
+F 0 "TP1" V 5000 2588 50  0001 L CNN
+F 1 "TX" V 5000 2588 50  0000 L CNN
+F 2 "" H 5200 2400 50  0001 C CNN
+F 3 "~" H 5200 2400 50  0001 C CNN
+	1    5000 2400
 	0    1    1    0   
 $EndComp
-Text Notes 5350 3500 0    50   ~ 0
+Text Notes 5450 2400 0    50   ~ 0
 USART1_TX
-Text Notes 5350 3300 0    50   ~ 0
+Text Notes 5450 2200 0    50   ~ 0
 SPI1_MOSI
-Text Notes 3450 3500 2    50   ~ 0
+Text Notes 3550 2400 2    50   ~ 0
 SPI1_NSS
-Text HLabel 1700 2000 0    50   UnSpc ~ 0
-DIP_A
-Wire Wire Line
-	1700 2100 2000 2100
-Wire Wire Line
-	2000 2000 1700 2000
-NoConn ~ 2000 2200
+NoConn ~ 2000 1700
 $Comp
 L Switch:SW_Push BOOT0
 U 1 1 63376124
-P 3700 3000
-F 0 "BOOT0" H 3700 3285 50  0000 C CNN
-F 1 "RESET" H 3700 3194 50  0000 C CNN
-F 2 "" H 3700 3200 50  0001 C CNN
-F 3 "~" H 3700 3200 50  0001 C CNN
-	1    3700 3000
+P 3800 1900
+F 0 "BOOT0" H 3800 2185 50  0000 C CNN
+F 1 "RESET" H 3800 2094 50  0000 C CNN
+F 2 "" H 3800 2100 50  0001 C CNN
+F 3 "~" H 3800 2100 50  0001 C CNN
+	1    3800 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR03
 U 1 1 63376C37
-P 3500 3000
-F 0 "#PWR03" H 3500 2850 50  0001 C CNN
-F 1 "+3V3" V 3500 3150 50  0000 L CNN
-F 2 "" H 3500 3000 50  0001 C CNN
-F 3 "" H 3500 3000 50  0001 C CNN
-	1    3500 3000
+P 3600 1900
+F 0 "#PWR03" H 3600 1750 50  0001 C CNN
+F 1 "+3V3" V 3600 2050 50  0000 L CNN
+F 2 "" H 3600 1900 50  0001 C CNN
+F 3 "" H 3600 1900 50  0001 C CNN
+	1    3600 1900
 	0    -1   -1   0   
 $EndComp
-Text Notes 3450 3700 2    50   ~ 0
+Text Notes 3550 2600 2    50   ~ 0
 SPI1_SCK
-Text Notes 3450 4000 2    50   ~ 0
+Text Notes 3550 2900 2    50   ~ 0
 I2C1_SCL
-Text Notes 3450 4100 2    50   ~ 0
+Text Notes 3550 3000 2    50   ~ 0
 I2C1_SDA
-Text Label 3500 4000 0    50   ~ 0
-RGB_SCL
-Wire Wire Line
-	3500 4000 3900 4000
-Text Label 3500 4100 0    50   ~ 0
-RGB_SDA
-Wire Wire Line
-	3500 4100 3900 4100
 $Sheet
-S 7400 4950 850  850 
+S 7500 4500 1000 1000
 U 63394351
 F0 "RGB" 50
 F1 "Q1-RGB.sch" 50
 $EndSheet
+$Sheet
+S 4000 4500 1000 1000
+U 62F582B9
+F0 "Keys" 50
+F1 "Q1-Keys.sch" 50
+$EndSheet
+Text GLabel 5000 1500 2    50   Output ~ 0
+COL02
+Text GLabel 5000 1600 2    50   Output ~ 0
+COL03
+Text GLabel 5000 1700 2    50   Output ~ 0
+COL04
+Text GLabel 5000 1800 2    50   Output ~ 0
+COL05
+Text GLabel 5000 1900 2    50   Output ~ 0
+COL06
+Text GLabel 5000 2000 2    50   Output ~ 0
+COL07
+NoConn ~ 5000 2100
+Text GLabel 5000 2500 2    50   Input ~ 0
+ENC_A
+Text GLabel 5000 2300 2    50   Input ~ 0
+ENC_B
+Text GLabel 5000 2800 2    50   Input ~ 0
+ROW5
+Text GLabel 5000 2900 2    50   Input ~ 0
+ROW4
+Text GLabel 5000 3000 2    50   Input ~ 0
+ROW3
+Text GLabel 2000 1500 0    50   UnSpc ~ 0
+DIP_A
+Text GLabel 2000 1600 0    50   UnSpc ~ 0
+DIP_B
+$Comp
+L power:VBUS #PWR0109
+U 1 1 69A905FF
+P 2000 2100
+F 0 "#PWR0109" H 2000 1950 50  0001 C CNN
+F 1 "VBUS" V 2000 2250 50  0000 L CNN
+F 2 "" H 2000 2100 50  0001 C CNN
+F 3 "" H 2000 2100 50  0001 C CNN
+	1    2000 2100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4000 2600 0    50   Input ~ 0
+ROW2
+Text GLabel 4000 2700 0    50   Input ~ 0
+ROW1
+Text GLabel 4000 2800 0    50   Input ~ 0
+ROW0
+Text GLabel 4000 2900 0    50   Output ~ 0
+RGB_SCL
+Text GLabel 4000 3000 0    50   Output ~ 0
+RGB_SDA
+Text GLabel 4000 2100 0    50   Output ~ 0
+COL00
+Text GLabel 4000 2200 0    50   Output ~ 0
+COL01
+$Comp
+L power:+3V3 #PWR0110
+U 1 1 69A97FB3
+P 4400 1300
+F 0 "#PWR0110" H 4400 1150 50  0001 C CNN
+F 1 "+3V3" H 4415 1473 50  0000 C CNN
+F 2 "" H 4400 1300 50  0001 C CNN
+F 3 "" H 4400 1300 50  0001 C CNN
+	1    4400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1300 4500 1300
+Connection ~ 4400 1300
+Connection ~ 4500 1300
+Wire Wire Line
+	4500 1300 4600 1300
+$Comp
+L power:GND #PWR0111
+U 1 1 69A99D0F
+P 4400 3200
+F 0 "#PWR0111" H 4400 2950 50  0001 C CNN
+F 1 "GND" H 4405 3027 50  0001 C CNN
+F 2 "" H 4400 3200 50  0001 C CNN
+F 3 "" H 4400 3200 50  0001 C CNN
+	1    4400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3200 4500 3200
+Connection ~ 4400 3200
+Connection ~ 4500 3200
+Wire Wire Line
+	4500 3200 4600 3200
+$Comp
+L power:+3V3 #PWR0112
+U 1 1 69A9B768
+P 7900 1300
+F 0 "#PWR0112" H 7900 1150 50  0001 C CNN
+F 1 "+3V3" H 7915 1473 50  0000 C CNN
+F 2 "" H 7900 1300 50  0001 C CNN
+F 3 "" H 7900 1300 50  0001 C CNN
+	1    7900 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 5450 2800 0    50   ~ 0
+SWDIO
+Text Notes 5450 2900 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	5000 2700 5600 2700
+Wire Wire Line
+	5000 2600 5600 2600
+Text GLabel 8300 1500 2    50   Output ~ 0
+COL08
+Text GLabel 8300 1600 2    50   Output ~ 0
+COL09
+Text GLabel 8300 1700 2    50   Output ~ 0
+COL10
+Text GLabel 8300 1800 2    50   Output ~ 0
+COL11
+Text GLabel 8300 1900 2    50   Output ~ 0
+COL12
+Text GLabel 8300 2000 2    50   Output ~ 0
+COL13
+Text GLabel 8300 2100 2    50   Output ~ 0
+COL14
+Text GLabel 8300 2200 2    50   Output ~ 0
+COL15
 $EndSCHEMATC
